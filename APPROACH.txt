@@ -16,6 +16,9 @@ SLA
             |NER
             |QUESTION CLASSIFICATION
         |DOCX
+            |ALL
+            |PROCESSING
+            |DONE
         |TXT
         |JSON
             |RAW
