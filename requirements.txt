@@ -1,7 +1,6 @@
-# doc2text
 transformers
 python-docx
 uvicorn
 fastapi
 python-multipart
-# python-pythonmagick
+pandas

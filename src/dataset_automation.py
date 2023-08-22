@@ -29,11 +29,11 @@ class NERDataConverter:
             json_filename = txt_file.replace(".txt", ".json")
             json_path = os.path.join(self.json_folder, json_filename)
 
-            lines_dict = {str(line_number + 1): line.strip() for line_number, line in enumerate(lines)}
+            lines_list = [line.strip() for line in lines if line.strip()]
 
             with open(json_path, "w") as json_file:
-                json.dump(lines_dict, json_file, indent=4)
-
+                json.dump(lines_list, json_file, indent=4)
+   
     def convert_to_csv(self):
         csv_data = []
 
@@ -42,15 +42,15 @@ class NERDataConverter:
         for json_file in json_files:
             json_path = os.path.join(self.json_folder, json_file)
             with open(json_path, "r") as file:
-                json_data = json.load(file)
-                processed_data = self.preprocess(json_data)
-                for key, value in processed_data.items():
-                    csv_data.append([key, value, json_file])
+                json_data = json.load(file)  
+                for index, value in enumerate(json_data, start=1):
+                    csv_data.append([str(index), value, json_file])  
 
         with open(self.csv_output_path, "w", newline="") as csv_file:
             csv_writer = csv.writer(csv_file)
-            csv_writer.writerow(["Key", "Value", "Filename"])
+            csv_writer.writerow(["Sentence", "Value", "Filename"])
             csv_writer.writerows(csv_data)
+
 
 if __name__ == "__main__":
     folder_path = "data/txt"
@@ -59,6 +59,3 @@ if __name__ == "__main__":
     converter = NERDataConverter(folder_path, json_folder, csv_output_path)
     converter.convert_to_json()
     converter.convert_to_csv()
-
-
-
