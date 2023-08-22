@@ -1,0 +1,25 @@
+PARSER => MODEL(NER) => JSON(RAW) => MODEL(CLASSIFICATION) => JSON(FINAL)
+
+
+
+
+
+
+DIRECTORY STRUCTURE
+SLA
+    |SRC
+        |MODELS.PY
+        |PARSER.PY
+        |ENGINE.PY
+    |DATA
+        |DATSETS    
+            |NER
+            |QUESTION CLASSIFICATION
+        |DOCX
+        |TXT
+        |JSON
+            |RAW
+            |FINAL
+    |MAIN.PY
+    |
+    |gitignore
