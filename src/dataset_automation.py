@@ -1,6 +1,7 @@
 import os
 import json
 import csv
+import pandas as pd
 
 class NERDataConverter:
     def __init__(self, folder_path, json_folder, csv_output_path, ner_data_raw="NER DATA RAW"):
@@ -46,12 +47,30 @@ class NERDataConverter:
                 for index, value in enumerate(json_data, start=1):
                     csv_data.append([str(index), value, json_file])  
 
-        with open(self.csv_output_path, "w", newline="") as csv_file:
+        with open(self.csv_output_path, "w", newline="", encoding="utf-8") as csv_file:
             csv_writer = csv.writer(csv_file)
-            csv_writer.writerow(["Sentence", "Value", "Filename"])
+            csv_writer.writerow(["Sentence", "Token", "Filename"])
             csv_writer.writerows(csv_data)
 
 
+
+class NERDataAnalyzer:
+    def __init__(self, csv_path):
+        self.csv_path = csv_path
+
+    def read_csv(self):
+        df = pd.read_csv(self.csv_path)
+        
+        new_rows = []
+        for index, row in df.iterrows():
+            values = row["Token"].split(" ")
+            for value in values:
+                if value.strip():
+                    new_rows.append({"Sentence": row["Sentence"], "Token": value, "Filename": row["Filename"]})
+        
+        new_df = pd.DataFrame(new_rows)
+        new_df.to_csv(self.csv_path, index=False) 
+   
 if __name__ == "__main__":
     folder_path = "data/txt"
     json_folder = "data/json/raw/txttorawjson"
@@ -59,3 +78,8 @@ if __name__ == "__main__":
     converter = NERDataConverter(folder_path, json_folder, csv_output_path)
     converter.convert_to_json()
     converter.convert_to_csv()
+    csv_path = "data/datasets/ner/ner_data.csv"
+    analyzer = NERDataAnalyzer(csv_path)
+    df = analyzer.read_csv()
+# '''
+
