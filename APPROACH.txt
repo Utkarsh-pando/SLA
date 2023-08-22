@@ -21,5 +21,12 @@ SLA
             |RAW
             |FINAL
     |MAIN.PY
-    |
+    |requirements.txt
     |gitignore
+
+modeules to be installed
+
+fastapi
+uvicorn
+numpy
+pandas
