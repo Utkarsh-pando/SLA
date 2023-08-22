@@ -1,0 +1,634 @@
+﻿ UPDATE LOGIT 11/13/2017
+
+Nov 10, 2017
+
+Questionnaire Outline
+
+The purpose of this phase of quantitative research is to provide:
+1. A benchmark understanding of key metrics in order to track change over time at regular intervals;
+2. A clear understanding of MSB Merchants across key measures including product awareness, product knowledge, terminal setup process/cost, relationship with Acquirers, and product barriers;
+3. Quantitative metrics to determine which approach is best to accelerate acceptance of INTERAC Flash among MSB Merchants to support future planning and strategy.
+
+This questionnaire is structured as follows:
+* (S) Introduction, Screening and Profiling
+* (Q) Main Questionnaire
+* (C) Concept Evaluation
+* (D) Standard Demographics
+
+
+Sample Qualifications and Quotas
+
+Total respondents: N=500
+
+Screening requirements:
+* Decision makers when it comes to payment methods for the business
+* Not currently or ever INTERAC Flash enabled
+* Currently INTERAC Pin enabled
+* <1M debit transaction annually
+o <10,000 qualifies as Micro Business
+o 10,000-1,000,000 qualifies as Small Business 
+* <$100 average ticket transaction (across all payment methods)
+* Not a franchise
+* Limit to only one interview per business
+* Have been in business for at least 2 years
+
+Sample Splits:
+* English Canada N=400 / French Canada (Quebec) N=100
+* Micro Businesses N=325 / Small Businesses N=175
+
+Mix of industries, gender, ages, and regions will be tracked and restricted if necessary.
+
+
+
+
+
+
+UPDATE LOGIT 11/13/2017
+
+
+Introduction, Screening and Profiling
+
+Hello, I'm ___ from ___. We are conducting brief market research interviews with small business owners about payment methods. This would require approximately  [15-minutes] of your time. If you fully qualify for participation of this survey , .  Y you will be entered to into a draw to win one of three $1,000 cash prizes just for participating.  We would really appreciate your input, and opinions. Are you able to participate now?
+*TEXT TO BE CONFIRMED WITH FIELD TEAM 
+
+* Yes
+* No - IF NO: Is there another time we could schedule that would work better for you?
+* Yes - RESCHEDULE
+* No - TERMINATE
+
+Record:  	Male		1
+		Female		2
+
+S1.  Who in your business is the decision maker when it comes to deciding the ways in which your customers are able to pay? *Payment methods refers to credit cards, cash, debit cards etc.
+
+SINGLE SELECTION
+* I am solely
+* Myself and someone else equally
+* Someone else - Can we speak with them? RETURN TO INTRO
+
+S2.  Which forms of payment does your business currently accept from customers?
+
+MULTIPLE SELECTION
+* Credit cards
+* Debit cards - ALL MUST MENTION
+* Cash
+* Other - TYPE BUT DON'T CODE
+
+S3.  Have you ever heard of, or are you aware of INTERAC Flash? You may know 'INTERAC Flash' as debit tap, or contactless debit. , however I am not referring to credit card tap, but only debit tap.
+
+SINGLE SELECTION
+* Yes
+* No 
+
+
+
+
+
+
+
+
+
+
+
+
+
+S4.  Does your business currently accept INTERAC Flash? 
+
+SINGLE SELECTION
+* Yes - TERMINATE, TRACK 
+* No 
+
+IF YES, ASK S4a: For this study were are looking for people who do not currently accept INTERAC Flash, but would you be willing to participating in a future study for those who do accept INTERAC Flash? 
+
+   SINGLE SELECTION
+* Yes - RECORD ID 
+* No
+
+S5.  Has your business ever accepted INTERAC Flash or debit tap? 
+
+SINGLE SELECTION
+* Yes - TERMINATE
+* No
+
+IF YES, ASK S5a: What are the reasons why you stopped accepting INTERAC Flash?
+
+	SELECT MULTIPLE
+* Additional fees
+* Too much hassle or time
+* No clear value for your business or your customers 
+* Issues related to your terminal
+* Issues integrating it with your existing system
+* Security concerns
+* Charge back concerns  
+* Other: TYPE BUT DON'T CODE
+
+S6.  In the past year, approximately how many debit card transactions did your business have? *The number of times your customers paid with their debit cards.
+
+SINGLE SELECTION
+* Less than 10,000 - RECORD AS MICRO / CHECK QUOTA
+* Between 10,000-1M - RECORD AS SMALL / CHECK QUOTA
+* Over 1M - TERMINATE 
+
+S7.  What is the average amount your customers spend per transaction, regardless of the payment method?
+
+SINGLE SELECTION
+* Under $10 per transaction
+* $10 - $25 per transaction
+* $26 - $50 per transaction
+* $51 - $75 per transaction
+* $76 - $100 per transaction
+* Over $100 per transaction - TERMINATE
+
+S8.  What type of business do you operate?
+
+DO NOT READ LIST
+SELECT BEST FITTING CATEGORY
+* Automotive - Service, Repairs, Parts
+* Bakery
+* Barber and Beauty Shop
+* Bar, Cocktail Lounge, Tavern
+* Book Store
+* Building Materials, Lumber Store
+* Business Services
+* Candy, Nut, Specialty Confectionery Store
+* Card, Gift, Novelty, and Souvenir Shop
+* Cigar Store or Stand
+* Clock, Jewelry, Watch, and Silverware Store
+* Discount Store
+* Drug Store, Pharmacy
+* Dry Cleaner
+* Sit Down Restaurants 
+* Fast Food, Quick Service Restaurants
+* Electronics Store
+* Clothing and Accessories Store
+* Florist
+* Gas Station, Fuel Dispenser
+* Game, Toy, and Hobby Shop
+* Grocery Store, Supermarket
+* Hardware Store
+* Health and Beauty Spa
+* Health and Wellness - Doctor, Dentist, Chiropractor, Optometrist
+* Lawn and Garden Supply Store
+* Limousine and Taxicab
+* Convenience and Variety Store
+* Motion Picture Theater
+* Beer, Wine, and Liquor Store
+* Pet Shop, Pet Food and Supplies
+* Shoe Store
+* Sporting Goods Stores
+* Other: - TYPE BUT DON'T CODE
+
+S9.  Is your business a franchise?
+
+SINGLE SELECTION
+* Yes - TERMINATE 
+* No
+
+
+
+
+
+
+
+S10.  How long has your business been operating?
+
+SINGLE SELECTION
+* Less than 2 years - TERMINATE 
+* 2 - 3 years 
+* 3  - 5 years 
+* 5 - 10 years 
+* 10 - 15 years
+* More than 15 years
+
+
+
+Main Questionnaire 
+
+Q1.  How would you rate your awareness and familiarity with INTERAC Flash on a scale of 1-4 where 1 means you are 'not at all familiar with the INTERAC Flash brand and product', and 4 means you are 'very familiar with the INTERAC Flash brand and product.'
+
+READ FULL LIST TO FAMILIARIZE RESPONDENT WITH 1-5 SCALE
+SINGLE SELECTION
+* 1 - I'm not at all familiar with the INTERAC Flash brand and product.
+* 2 - I'm not very familiar with the brand and product.
+* 3 - I'm somewhat familiar with the brand and product.
+* 4 - I'm very familiar with the brand and product.
+
+
+
+Q2.  How likely are you to enable INTERAC Flash as a payment option in your business in the future? 
+1 is 'very unlikely', and 5 is 'very likely'.
+
+SINGLE SELECTION
+* 1 - Very unlikely
+* 2 - Somewhat unlikely
+* 3 - Not sure
+* 4 - Somewhat likely
+* 5 - Very likely
+
+Q3.  When, if ever, do you think you will enable INTERAC Flash as a payment option in your business?
+
+SINGLE SELECTION
+* Within the next month
+* Within the next 1-6   5 months or more
+* Within the next 6-12  11 months or more
+* Within the next 1-2 years or more
+* Within the next 2  3 -5 years more
+* Longer than 5 years
+* Never
+* Not sure
+
+
+Q4.  How many payment terminals do you have in your business? I'm referring to the machines or interfaces that process debit and credit card transactions.
+
+SINGLE SELECTION
+* 0
+* 1
+* 2
+* 3
+* 4
+* 5+
+
+Q5.  Would any of your terminals be able to accept INTERAC Flash if you decided to offer it? That is, your service provider would be able to turn the tap function on without changing your terminal.
+
+SINGLE SELECTION
+* Yes
+* No
+* Not sure
+
+Q6.  Why haven't you enabled or offered INTERAC Flash in your business to date? 
+
+OPEN END
+CODE TO LIST
+* Your terminal contract or hardware is not up for renewal 
+* Additional fees
+* Too much hassle or time
+* Your customers would not be able to tip on services
+* Your customers haven't asked for it
+* Not knowing enough about it
+* Lack of awareness, it's not top of mind
+* No clear value to your business or your customers
+* Not having the right terminal
+* Concerns about how it will integrate with your existing systems
+* Concerns about security
+* Concerns about liability
+* Restrictions or penalties related to your current system 
+* Can't afford any downtime while I change my terminal
+* It was never offered to me by the terminal provider
+* Other - TYPE AND CODE
+
+
+
+
+
+
+
+
+
+
+
+Q7.  Other business owners have mentioned the following as reasons why they haven't enabled INTERAC Flash in their businesses. Please rate each one using a scale of 1-5 where 1 is 'not at all a factor' in why you haven't enabled INTERAC Flash, and 5 is 'a major factor' in why you haven't enabled INTERAC Flash.
+
+RANDOMIZE LIST
+SINGLE SELECTION [1, 2, 3, 4, 5] FOR EACH ITEM, ONE AT A TIME
+* Your terminal contract or hardware is not up for renewal 
+* Additional fees
+* Too much hassle or time
+* Your customers would not be able to tip on services
+* Your customers haven't asked for it
+* Not knowing enough about it
+* Lack of awareness, it's not top of mind
+* No clear value to your business or your customers
+* Not having the right terminal
+* Concerns about how it will integrate with your existing systems
+* Concerns about security
+* Concerns about liability
+* Restrictions or penalties related to your current system 
+* Can't afford any downtime while I change my terminal
+* It was never offered to me by the terminal provider
+* Other: TYPE BUT DON'T CODE
+
+Q8.  If you decided to enable and offer INTERAC Flash for your business tomorrow, what would you do first?
+
+DO NOT READ LIST
+SINGLE SELECTION
+* Contact your payment service provider
+* Contact Interac
+* Contact or talk to another business owner, or friend
+* Contact your financial institution
+* Contact your credit card company - e.g. Visa or MasterCard
+* Contact your acquirer
+* Contact a trade association
+* Research on the Internet
+* Other: TYPE BUT DON'T CODE
+* Not sure
+
+
+
+
+
+
+
+
+
+
+Q9.  As far as you know, approximately what would the total cost per terminal be to your business to enable INTERAC Flash?
+
+SINGLE SELECTION
+* Don't know
+* $0 / Nothing
+* $1-$50
+* $51-$100
+* $101-$300
+* $301-$500
+* $501-$1,000
+* $1,001+
+
+Q10.  How clear are you around what would need to change, if anything, to your current payment system setup - hardware, software, anything else - to enable and offer INTERAC Flash? On a scale of 1-5 where 1 is 'not at all clear' and 5 is 'very clear' on what would need to change. 
+
+SINGLE SELECTION
+* 1 - Not at all clear on what would need to change
+* 2
+* 3 - Not sure - Clarification needed
+* 4
+* 5 - Very clear on what would need to change
+
+Q11.  What does it currently cost your business for each non-Flash, INTERAC Debit transaction?
+
+RECORD $ VALUE OR % VALUE, DEPENDING ON HOW THEY RESPOND
+* Don't know
+* Record $ value (e.g. $0.06)
+* Record % value (e.g. 1.5%)
+
+Q12.  On a scale of 1-5, how would you rate your concerns about security when it comes to offering INTERAC Flash in your business, where 1 means you are 'not concerned at all' about security and 5 means you are 'very concerned'. 
+
+SINGLE SELECTION
+* 1 - not concerned at all
+* 2
+* 3 - not sure
+* 4
+* 5 - very concerned
+ 
+
+
+
+
+
+
+
+Q13.  On a scale of 1-5, how would you rate your concerns about charge backs when it comes to offering INTERAC Flash in your business, where 1 means you are 'not concerned at all' and 5 means you are 'very concerned'. 
+
+SINGLE SELECTION
+* 1 - not concerned at all
+* 2
+* 3 - not sure
+* 4
+* 5 - very concerned
+
+Q14.  Based on what you know about INTERAC Flash do you think it's true or false that the business owner can receive charge backs for debit transactions?
+
+SINGLE SELECTION
+* True, Merchants can receive charge backs
+* Not sure
+* False, Merchants cannot receive charge backs
+o Note to interviewer: False is correct. Merchants are never liable for faulty transactions and never receive charge backs, unlike credit cards. 
+
+Q15.  Who is the current payment service provider or payment processor for your business? This is the company that provides your terminals and any other hardware that you use to process payment.
+
+DO NOT READ LIST
+SELECT BEST FITTING OPTIONS
+* Chase Paymentech
+* Desjardins
+* First Data Canada
+* Global Payments
+* Moneris Solutions
+* Monex Group
+* Payfirma
+* PayPal
+* Square
+* Stripe
+* TD Merchant Services 
+* Other: TYPE BUT DON'T CODE
+* Don't know
+
+Q16.  Have you ever changed providers?
+
+SINGLE SELECTION
+* Yes
+* No 
+* Don't know
+
+
+
+
+Q17.  When was the last time you were in contact with your payment processing provider?
+
+SINGLE SELECTION
+* Within the past week
+* Within the past month
+* Between 1-3 months ago or more
+* Between 3  4 - 6  5 months ago or more
+* Between 6- 12 11 months ago or more
+* Between 1-2 years ago or more
+* Between 2 3 -5 years ago
+* Longer than that
+* Never
+* Not sure - ALWAYS LAST
+
+Q18.  Do you own or lease your payment terminals?
+
+SINGLE SELECTION
+* Own - SKIP Q19
+* Lease 
+* Not sure - SKIP Q19 
+
+Q19.  How much does it cost to lease each terminal per month?
+
+DO NOT READ LIST
+SELECT RANGE
+* $0-$50 49
+* $50-$100 99
+* $100-$150 149
+* $150-$200 199
+* $200-$250 249
+* $250-$300
+* +$300
+* Don't know
+
+Q20.  On a scale of 1-5, how satisfied are you with your relationship with your payment processing provider where 1 is 'very dissatisfied', and 5 is 'very satisfied'. 
+
+SINGLE SELECTION
+* 1 - very dissatisfied 
+* 2
+* 3
+* 4
+* 5 - very satisfied
+
+
+
+
+
+
+
+Concept Assessment 
+
+C1.  I am now going to read you some ideas of things that Interac could say or do to encourage business owners and decision makers like you to enable INTERAC Flash in their business.
+
+Thinking about your own reasons why you haven't enabled INTERAC Flash in your business to date I will ask you to rate each statement on a scale of 1-5, in terms of how likely it would be to encourage you to enable INTERAC Flash in your business, where 1 is 'not at all likely' and 5 is 'very likely'.
+
+It's really important to consider each idea in isolation, as if it was the only one you heard.
+And remember that these are not finished ads, so don't get caught up in the wording of any of them.
+
+RANDOMIZE MESSAGE ORDER
+RECORD ORDER PRESENTED FOR EACH RESPONDENT FOR ANALYSIS PURPOSES
+RECORD RATING [1,2,3,4,5] FOR EACH STATEMENT, ONE AT A TIME
+
+* 1 - Not at all likely to encourage you to enable INTERAC Flash in your business
+* 2 - Somewhat unlikely
+* 3 - Not sure
+* 4 - Somewhat likely
+* 5 - Very likely to encourage you to enable INTERAC Flash in your business
+
+a) Try INTERAC Flash with no commitment and receive a 3-month fee holiday where you don't pay any INTERAC Flash transaction fees for 3-months.
+b) Try INTERAC Flash with no commitment and receive the first 500 INTERAC Flash transactions for free during your first 6-months.
+c) Try INTERAC Flash with no commitment and INTERAC will pay your terminal rental costs for the first 3 months up to a max of $150.
+d) 75% of major Merchants in Canada offer INTERAC Flash.
+e) 60% of Canadians want to pay with INTERAC Flash.
+f) This one is a quote from another business owner that reads, "When we turned on INTERAC Flash, our overall debit transactions increased by 8% year on year."
+g) This one is a quote from another business owner that reads, "In my business, keeping my customers happy is my #1 priority, so I offer INTERAC Flash."
+h) Turning on INTERAC Flash is as easy as 1-2-3.
+i) With INTERAC and INTERAC Flash, the Merchant is never liable for charge backs on customer transactions.
+j) INTERAC Flash Merchants receive free access to the Interac Small Business Association, which provides industry-specific seminars as well as in-person and online business support services. 
+
+C2. Which one idea or statement stands out in your mind as the most impactful - on its own - to encourage business owners to enable INTERAC Flash?
+
+OPEN END
+DO NOT REREAD LIST
+CODE TO LIST
+a) Try INTERAC Flash with no commitment and receive a 3-month fee holiday where you don't pay any INTERAC Flash transaction fees for 3-months.
+b) Try INTERAC Flash with no commitment and receive the first 500 INTERAC Flash transactions for free during your first 6-months.
+c) Try INTERAC Flash with no commitment and INTERAC will pay your terminal rental costs for the first 3 months up to a max of $150.
+d) 75% of major Merchants in Canada offer INTERAC Flash.
+e) 60% of Canadians want to pay with INTERAC Flash.
+f) This one is a quote from another business owner that reads, "When we turned on INTERAC Flash, our overall debit transactions increased by 8% year on year."
+g) This one is a quote from another business owner that reads, "In my business, keeping my customers happy is my #1 priority, so I offer INTERAC Flash."
+h) Turning on INTERAC Flash is as easy as 1-2-3.
+i) With INTERAC and INTERAC Flash, the Merchant is never liable for charge backs on customer transactions.
+j) INTERAC Flash Merchants receive free access to the Interac Small Business Association, which provides industry-specific seminars as well as in-person and online business support services. 
+k) NONE
+l) NOT SURE / NOT ABLE TO REMEMBER ANY
+
+C3. Thinking about the ideas you preferred, how would you like to hear or learn about them? What would be most effective for you?
+
+OPEN END
+CODE TO LIST
+* Direct mail (comes in your physical mailbox)
+* Telephone
+* In person
+* Email
+* Social media (e.g. Facebook or LinkedIn)
+* Physical advertising, such as billboards
+* Digital advertising, such as s Facebook or YoutTube ad
+* Conference or trade association, or event
+* Other: TYPE BUT DON'T CODE
+
+C4.  Other business owners have mentioned the following ways to hear or learn about these ideas. What would be your top 3 from the following list?
+
+READ LIST
+SELECT THREE
+* Direct mail (comes in your physical mailbox)
+* Telephone
+* In person
+* Email
+* Social media (e.g. Facebook or LinkedIn)
+* Physical advertising, such as billboards
+* Digital advertising, such as s Facebook or YoutTube ad
+* Conference or trade association, or event
+* Other: TYPE BUT DON'T CODE
+
+
+
+
+
+
+Demographic and additional profiling 
+
+Just before we wrap up, I need to capture a bit more information about you.
+
+D1.  Are you...
+
+READ LIST
+* 18-29
+* 30-39
+* 40-49
+* 50-59
+* 60-69
+* 70+
+
+D2.  How many employees does your business currently employ?
+
+WRITE IN
+
+D3.  Does your business currently accept tap/contactless payments with credit cards? 
+
+SINGLE SELECTION
+* Yes
+* No
+
+D4.  Approximately, what percentage of your business' total transactions are debit?
+
+DO NOT READ LIST
+SELECT RANGE
+* Less than 25%
+* Between 25-49%
+* Between 50-75%
+* More than 75%
+
+D5.  What percentage of the business do you currently own?
+
+DO NOT READ LIST
+SELECT RANGE
+* 0%
+* 1-25%
+* 26-50%
+* 51-75%
+* 76-100%
+
+D6.  Does your business accept tips from customers?
+
+SINGLE SELECTION
+* Yes
+* No - SKIP D7
+
+D7.  On a scale of 1-5, how important is tipping for you and/or your employees where 1 is 'not at all important', and 5 is 'very important'?
+
+SINGLE SELECTION
+* 1 - Not at all important
+* 2
+* 3 - Not sure
+* 4
+* 5 - Very important
+
+D8.  Please list any industry, trade, or business associations that you are a member of or engaged with. This could be any group of business owners, like Restaurants Canada or the Canadian Convenience Stores Association.
+
+OPEN END
+CODED
+
+*INSERT CLOSING TEXT, INCLUDING WHERE THEY SHOULD GO FOR MORE INFORMATION (e.g. INTERAC.CA)
+
+If Respondent agrees to be entered in the Draw, please say: "In order to be entered into the draw to win one of three $1000 cash prizes, may we please gather your information for participation.
+
+Name_______________
+Address______________
+City____________
+Province_____________
+                     Postal Code_____________
+	        Email Address___________
+                                           Interac MSB Merchant Survey	                    
+                      
+
+
+
+
+1
+		
+

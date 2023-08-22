@@ -1,0 +1,873 @@
+﻿
+Rogers /Fido Port-Out Questionnaire
+
+
+
+
+
+Coding Required for: 
+Q3
+Q4
+
+Sampling: On a monthly basis:
+1
+250
+Rogers Wireless Postpaid Port-Outs (Consumer)
+3
+200
+Fido Postpaid Port-Outs
+
+Rogers /Fido Port-Out Questionnaire
+
+
+Good morning/afternoon/evening, may I please speak to <insert name from database>?
+(IF NOT THERE OR NOT AVAILABLE INTERVIEWER SHOULD ASK FOR A BETTER TIME / NUMBER TO CALL THEM BACK)
+
+Hello, my name is: ________ and I'm calling on behalf of Rogers Wireless/Fido. Rogers/Fido has asked us to conduct a short survey in order to better understand the perceptions of its former customers.  It will only take about 10 minutes of your time. I want to assure you that we are not trying to sell you anything.
+
+HSOURCE: 
+HSource=Rogers if from file "Rogers Wireless Postpaid Sample"
+Hsource=Fido if from file "Fido Wireless Postpaid Sample"
+
+SCREENER
+
+D3.	Which province do you live in? [DO NOT READ]
+ 
+       British Columbia
+       Alberta
+       Saskatchewan
+       Manitoba
+       Ontario
+       Quebec
+       New Brunswick			 
+       Newfoundland		
+       Nova Scotia
+       PEI 
+       
+       Other	
+
+
+S11. Have you recently cancelled your <HSOURCE: Rogers/Fido> Wireless service?
+
+Yes
+No
+Don't know
+
+ASK S1a IF NO OR DON'T KNOW SELECTED in S11
+S1a. Is there someone in your household who recently ended their <HSOURCE: Rogers/Fido> wireless service that we can to talk to?
+DO NOT READ
+
+Yes
+No [TERMINATE]
+Don't know [TERMINATE]
+
+[TERMINATE IF NO OR DON'T KNOW IN S1a]
+
+TEXT IF S1a=YES: Can I please speak with this person? French: Puis-je parler avec cette personne?
+DO NOT READ
+
+Yes [Continue to S11]
+No [THANK AND TERMINATE] 
+
+TERMINATE DQ TEXT:
+Thank you for your interest in taking this survey. However based on your answers so far, you will not find the rest of the survey is relevant to you. Thank you for your time.
+
+
+Ask All
+S1a3. Prior to cancelling your <HSource: Rogers / Fido> wireless service, how many mobile phone numbers or lines did you have with <HSource: Rogers Wireless / Fido>?
+[INSERT DROP DOWN, 1 TO 10]
+
+[IF "1" AT S1a3 AUTOPUNCH S1b AS "1" AND DO NOT ASK.] 
+S1b. How many <HSource: Rogers Wireless / Fido> mobile phone numbers or lines did you cancel?
+
+ [RANGE IS 1=S1a3 RESPONSE] 
+
+
+S2.	Have you signed up for cell phone service with another wireless provider to replace <HSOURCE: Rogers Wireless/Fido>?
+
+	Yes		1	CONTINUE
+	No		2	TERMINATE
+	Don't know	3	TERMINATE
+
+
+S2a. Prior to cancelling your <HSource: Rogers Wireless / Fido> wireless service, were you subscribed to any other Rogers services? 
+
+DO NOT READ
+Yes		1
+No		2 SKIP TO S3
+
+S2b. Which services would those be?
+[READ LIST] 
+Cable TV				1
+High speed internet			2
+Home phone				3
+Smart Home Monitoring		4
+
+
+
+S3. Are you currently subscribed to any service with Rogers?
+[IF S1b is asked and is less than S1a3, use alternative wording] Are you currently subscribed to any service with Rogers, including any additional wireless lines?
+
+Yes		1
+No		2 SKIP TO Q1
+
+S4. [IF YES TO S3] Which services would those be? [READ LIST] AUTOPUNCH "ANOTHER WIRELESS LINE" IF S1b is asked and is less than S1a3
+
+Cable TV				1
+High speed internet			2
+Home phone				3
+Smart Home Monitoring		4
+Another wireless line			5
+
+
+[IF CABLE TV IN S2b BUT NOT IN S4 (including those who said NO in S3), CODE AS CABLE CANCELLER] 
+[IF INTERNET IN S2b BUT NOT IN S4, CODE AS INTERNET CANCELLER]
+[IF HOME PHONE IN S2b BUT NOT IN S4, CODE AS HOME PHONE CANCELLER]
+[IF SMART HOME MONITORING IN S2b BUT NOT IN S4, CODE AS SMART HOME MONITORING CANCELLER]
+[IF S1b is asked and is less than S1a3 BUT ANOTHER LINE NOT CHOSEN IN S4, CODE AS ANOTHER WIRELESS LINE CANCELLER]
+
+[IF CABLE TV IN S2b AND IN S4, CODE AS CABLE STAYER]
+[IF INTERNET IN S2b AND IN S4, CODE AS INTERNET STAYER]
+[IF HOME PHONE IN S2b AND IN S4, CODE AS HOME PHONE STAYER]
+[IF SMART HOME MONITORING IN S2b AND IN S4, CODE AS SMART HOME MONITORING STAYER]
+[IF S1b is asked and is less than S1a3 AND ANOTHER LINE IS CHOSEN IN S4, CODE AS ANOTHER WIRELESS LINE STAYER]
+
+[IF CABLE TV NOT IN S2b (including those who said NO in S2a), BUT IN S4, CODE AS CABLE ADDER]
+[IF INTERNET NOT IN S2b BUT IN S4, CODE AS INTERNET ADDER]
+[IF HOME PHONE NOT IN S2b BUT IN S4, CODE AS HOME PHONE ADDER]
+[IF SMART HOME MONITORING NOT IN S2b BUT IN S4, CODE AS SMART HOME MONITORING ADDER]
+[IF s1a3 EQUALS S1b AND ANOTHER WIRELESS LINE CHOSEN IN s4, CODE AS ANOTHER WIRELESS LINE ADDER]
+
+[IF CABLE TV NOT IN S2b (including those who said NO in S2a), AND NOT IN S4 (including those who said NO in S3),, CODE AS CABLE NEVER]
+[IF INTERNET NOT IN S2b AND NOT IN S4, CODE AS INTERNET NEVER]
+[IF HOME PHONE NOT IN S2b AND NOT IN S4, CODE AS HOME PHONE NEVER]
+[IF SMART HOME MONITORING NOT IN S2b AND NOT IN S4, CODE AS SMART HOME MONITORING NEVER]
+[IF s1a3 EQUALS S1b AND ANOTHER LINE NOT CHOSEN IN S4 CODE AS ANOTHER WIRELESS LINE NEVER]
+
+
+
+S5. [IF SELECTED MORE THAN ONE ITEM AT S4]
+Are the services that you currently subscribe to with Rogers part of a bundle?
+Yes
+No
+
+
+S7.	 [IF LABELLED CANCELLER FOR ANY SERVICE, ASK FOR THAT SERVICE:]
+Have you signed up for the following services with another provider to replace Rogers?
+MASK BASED ON S1
+
+
+Yes
+No
+DK/Refused
+A) Home phone
+
+
+
+B) Internet
+
+
+
+C) TV
+
+
+
+
+
+
+MAIN QUESTIONNAIRE
+
+A. New Provider
+
+Q1.	Who is your new cell phone service provider? [DO NOT READ, ONE MENTION ONLY - IF SEVERAL PROVIDERS ASK FOR THE MAIN ONE]
+
+	Telus Mobility			3
+	Koodo					4
+	Bell Mobility/Aliant		6
+	Virgin Mobile				7
+	Freedom Mobile			8
+	Mobilicity				9
+	Videotron				10
+	Public Mobile				11
+	Eastlink					12
+	Bell MTS				13
+	SaskTel					14
+	Chatr					15
+Lucky Mobile	16
+	Other providers			98
+	Don't know/Refuse			[TERMINATE]
+
+
+
+
+
+[MULTI CHOICE FLAT] 
+[Base: Answered 3,6,7,10,13,14, or 98 at Q1]
+Q_NEW_PROVIDER_SERVICES. Do you or someone else in your household also currently subscribe to any of the following services with [INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1]?
+
+[ROWS-RANDOMIZE]
+Wireless
+Internet
+Home phone
+TV
+None of these [ANCHOR]
+
+Q6c.What type of service plan did you choose with [<[INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1] (Select one response)
+a. Monthly Individual/Single-line Plan (for which you receive a monthly invoice)
+b. Monthly Family/Shared/Multi-line Plan (for which you or someone in your household receive a monthly invoice)
+c. Billed to the Company (for which only your employer gets the bill directly) 
+d. Pre-Paid/Pay-as-you-go (for which you buy some airtime or vouchers whenever you run out of credits)
+e. Don't Know
+
+[ASK Q_BYOD to ALL]
+Q_BYOD.  Which of the following statements accurately describes how you received your current mobile phone?
+I received it from my current service provider
+I was given the phone from a family member, friend or colleague
+I purchased it somewhere other than my current provider (ie. Online such as Kijiji or Craigslist, store such as Apple store, Google Play store or manufacturer store)
+I purchased my phone outside of the country
+I kept my phone from <HSOURCE: Rogers/Fido > 
+Don't know
+
+
+
+[IF Q_BYOD="I received it from my current provider"]
+Q_NEW_OR_REFURBISHED. Some wireless providers and retailers sell discounted phones that other customers have traded in called "refurbished." Was the phone you received from your current provider brand new or refurbished? 
+
+
+[DO NOT READ]
+Brand new
+Refurbished
+Don't know
+
+[IF Q_BYOD !="I received it from my current provider"]
+[SINGLE CHOICE VISUAL]
+Q_OLD_CELLPHONE. What did you do with your old cell phone?
+
+[READ LIST ONLY IF NECESSARY]
+Threw out / recycled
+Sold it
+Traded it in to a store
+Gave it to a friend or family member
+Kept it but do not use it anymore
+Continue to use it as a secondary phone
+Other (please specify): ______________
+Don't know
+
+
+Q6a4 .What type of service plan did you have with <HSOURCE: Rogers/Fido >?
+a. Monthly Individual/Single-line Plan (for which you receive a monthly invoice)
+b. Monthly Family/Shared/Multi-line Plan (for which you or someone in your household receive a monthly invoice)
+c. Billed to the Company (for which only your employer gets the bill directly) 
+d. Don't Know
+
+
+[ASK Q_BYOD2 to ALL]
+Q_BYOD2.  Which of the following statements accurately describes how you received your previous mobile phone with <HSOURCE: Rogers/Fido >?
+I received it from <HSOURCE: Rogers/Fido >
+I was given the phone from a family member, friend or colleague
+I purchased it somewhere other than my current provider (ie. Online such as Kijiji or Craigslist, store such as Apple store, Google Play store or manufacturer store)
+I purchased my phone outside of the country
+I kept my phone from a previous plan/provider
+Don't know
+
+
+
+
+
+
+
+Q3.	What would you say it was that led you to leave <HSOURCE:Rogers Wireless/Fido>? [DO NOT READ] [CHOOSE ALL THAT APPLY] [PROBE: Any other reasons?]
+
+	Price & Package
+I found a cheaper plan with another provider/better deal
+I found a cheaper plan with another provider
+I found a better deal with another provider 
+I was unable to keep my existing price plan when               renewing contract       
+I was not able to suspend my service(s) 
+My promotion expired and could not be extended                                                            
+
+101
+
+119
+
+
+102
+
+103
+
+104
+Could not match EPP/Friends and Family/Corporate offer
+105
+Too expensive (general)
+106
+Cost per minute (airtime) too expensive
+107
+Cost of data/internet too expensive
+108
+Features too expensive (voice mail/call display/text messaging)
+109
+Lack of unlimited data
+110
+Lack of unlimited minutes
+111
+No unlimited plans (general)
+112
+Had to spend a minimum amount every month in order to get an iPhone or Android phone
+113
+Did not include evenings and weekends
+114
+Bill was higher than expected
+115
+Fewer features in plan than with other carrier
+116
+Data Overages
+117
+
+Did not want to change plan/package to upgrade phone/ wouldn't let me keep my current plan             
+118
+Company plan / got an employee plan
+120
+
+Contract expired / ended
+121
+
+Could not match competitor's offer
+122
+
+Roaming charges
+123
+
+Bundling with another provider
+801
+
+Service plans that do not meet needs
+802
+
+Received a corporate/association discount
+805
+	Geographic Coverage & Reception
+No coverage
+201
+Poor reception/reception quality
+202
+Dropped calls
+203
+Speed was too slow
+204
+	
+		Handsets
+Quality of handsets and equipment
+301
+I needed a new handset that Rogers/Fido did not offer
+302
+Poor selection of handsets
+303
+Lack of $0 / discounted handsets
+304
+Dissatisfaction with the handset
+305
+Issue replacing the phone
+306
+Could not upgrade phone
+307
+Unhappy with cost of upgrading phone
+308
+Phone issues (technical)/phone didn't work
+309
+Wanted a new phone
+310
+The phone I wanted was not available in the store
+311
+Could not get the phone I wanted on my price plan
+312
+
+		Customer Service
+Poor customer service on the phone
+401
+Poor customer service in the store
+402
+Customer service was not able to resolve my problem
+403
+Long wait times for customer service
+404
+Call got transferred several times
+405
+Got different answers from different HSOURCE:Rogers Wireless/Fido employees
+406
+Had to call repeated time to get information / issue resolved
+407
+Billing errors
+408
+Customer service (General)
+409
+Rogers Rewards [HSOURCE= ROGERS SAMPLE ONLY]
+Could not use my Rogers First Rewards
+410
+
+
+
+Dissatisfied with Rogers First Rewards
+411
+
+
+
+		
+		Fido Rewards [FOR FIDO SAMPLE ONLY]
+Could not use my Fido Rewards
+501
+Dissatisfied with Fido Rewards
+502
+		
+	Others
+Bundling with another provider
+801
+Service plans that do not meet needs
+802
+Negative image of HSOURCE:Rogers Wireless/Fido
+803
+Business decision (my employer decided)
+804
+Received a corporate/association discount
+805
+Did not want to sign a contract/Contract in general
+806
+Others (specify) _____________________________	998 [CODE]
+
+DNK/DNA	999
+
+
+
+
+
+
+Q4.	What was it about <[INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1> that made you choose them as your new cell phone provider? [DO NOT READ] [CHOOSE ALL THAT APPLY] [PROBE UNTIL UNPRODUCTIVE]
+
+Price/Plan
+Found a cheaper/better plan
+101
+Found a cheaper plan
+101
+
+Found a better plan
+119
+
+EPP/Friends and Family
+102
+More features in plan
+103
+Caller ID/Voice Mail included
+104
+Long distance included
+105
+More data included in plan/Data plan
+106
+No activation fee
+107
+Free /Unlimited Minutes/Evenings & weekends
+108
+Unlimited calls / minutes
+109
+Long distance packages
+110
+Unlimited text messaging/Text message package
+111
+They have simpler packages/easier to understand
+International text package 
+Promotion 
+Better bundling package for my services   
+112
+113
+114
+Flexible with adding plans
+116
+
+Free roaming / roaming package
+117
+
+Gift cards
+118
+
+Student discount
+122
+
+Unlimited data
+123
+
+Unlimited everything
+124
+
+Bundling of services
+801
+
+Received a corporate/association discount
+805
+
+Coverage/reception
+Believed network would be better
+201
+More coverage/ extended area of coverage
+202
+Speed of data/internet
+203
+Handset
+Promotion on handset price
+301
+Phone Selection/they had the desired handset
+302
+Free handset / phone
+303
+Could bring my own handset
+304
+Liked that tab can be used towards buying new phone
+305
+Customer service
+Customer service in store
+401
+Customer service on the phone
+402
+Customer service (non-specified)
+403
+Special offers/marketing
+Port-in credit/credit when switching
+501
+Special offer  (General)
+502
+TV advertising
+503
+Newspaper advertising
+504
+Other advertising
+505
+The store was right there/convenient location
+506
+Other
+Bundling of services
+801
+No need to sign a contract
+802
+Previous experience with them
+803
+Business decision
+804
+Received a corporate/association discount
+805
+Advice from friends/family/ word of mouth
+806
+Wanted to try something new
+807
+No longer wanted to stay with <HSOURCE: Rogers/Fido>
+808
+Other (SPECIFY) _______________________________		998 (PROBE)
+DK/refused 		999
+
+
+[MULTI-CHOICE BUTTON]
+[Base: Total]
+Q_RCI BRANDS. Did you research any of the following brands before deciding on your [INSERT CURRENT PROVIDER]?  Please select all that apply.
+[RANDOMIZE, READ PROVIDER LIST]
+Rogers [ASKFIDO PORT-OUT ONLY]
+Fido [ASL ROGERS PORT-OUT ONLY]
+Chatr [ASK ALL]
+None of these [ANCHOR]
+
+[MULTI CHOICE BUTTON]
+Q_INFOSOURCE.  ASK FOR EACH BRAND SELECTED IN PREVIOUS QUESTION
+IF YES:
+Where did you look for information about [INSERT BRAND FROM PREVIOUS QUESTION] before finally deciding on your current provider?  Select all that apply.
+[ROWS-RANDOMIZE, READ LIST]
+1. [INSERT PROVIDER FROM PREVIOUS QUESTION] Website
+2. [INSERT PROVIDER FROM PREVIOUS QUESTION] store/kiosk
+3. Electronic and other retail stores (e.g. Best Buy, Apple Store, The Source, Walmart, Costco)
+4. Social media, online adds
+5. TV and/or radio ads
+6. Print ad, direct mail, billboards or posters 
+7. Word of mouth, recommended by family/friends
+8. Over the phone, during a conversation with [INSERT PROVIDER FROM PREVIOUS QUESTION]
+Not sure [ANCHOR, EXCLUSIVE]
+
+
+Q4a. Which statement best applies to you?
+
+Single Select
+[<[INSERT PROVIDER FROM Q1 OR "my new provider" if code 98 at Q1] first contacted me about Wireless service		1
+I first contacted <[INSERT PROVIDER FROM Q1 OR "my new provider" if code 98 at Q1] about Wireless service		2
+
+ [ASK TO ALL]
+Q4b. Thinking back to that first contact with <[INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1 to discuss wireless service, how did it occur? 
+
+Through Door to Door rep
+In lobby of my building
+Online/over the internet
+Over the Phone
+At a store or kiosk for [INSERT PROVIDER FROM Q1]
+Retail store such as Wireless Wave, The Source, Best Buy, Future Shop or Telephone Booth etc.
+At a grocery store such as Costco, Loblaws, Target etc.
+Other (Please Specify)
+I don't know/Refused	
+
+
+
+
+Q5.	Where did you go to transfer your number? (READ) 
+
+	<[INSERT PROVIDER FROM Q1 OR "New provider" if code 98 at Q1> store or kiosk		1
+	Best Buy						2
+	Future Shop						3
+	The Source						4
+	Wireless Wave						5
+	CostCo						6
+	Telephone Booth					7
+	Over the phone					8
+	Online/over the internet				11
+	Loblaws/Superstore					12
+	Other store (specify)____________________		98
+
+Q6a. Did you have a voice only plan or a voice and data plan with <HSOURCE: Fido/Rogers>?
+
+       Voice only plan		1
+	Voice and data plan		2
+	Don't know/not sure		98
+
+[ASK Q6a2 IF CODE 2 AT Q6a]
+Q6a2. How much data did you have included with your  <HSOURCE: Fido/Rogers> plan? [READ AND STOP WHEN RESPONDENT AGREES]
+
+	Less than 250 megabytes (MB)	1
+	251MB to 500MB		2
+	501 MB to less than1 gigabyte (GB)		3
+	1GB to less than 3GB			4
+	3GB to 5GB			5
+	More than 5GB		6
+	Unlimited			7
+	No data included		8 [DO NOT READ]
+	Don't know			9 [DO NOT READ]
+
+
+Q6. 	Do you have a voice only plan or a voice and data plan with <[INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1
+
+	Voice only plan		1
+	Voice and data plan		2
+	Don't know/not sure		9
+
+[ASK Q6b IF CODE 2 AT Q6]
+Q6b.	How much data do you have included with your plan? [READ AND STOP WHEN RESPONDENT AGREES]
+
+	Less than 250 megabytes (MB)	1
+	251MB to 500MB		2
+	501 MB to less than1 gigabyte (GB)		3
+	1GB to less than 3GB			4
+	3GB to 5GB			5
+	More than 5GB		6
+	Unlimited			7
+	No data included		8 [DO NOT READ]
+	Don't know			9 [DO NOT READ]
+
+
+
+[ERROR MESSAGE IF CHOOSING EXCLUSIVE OPTIONS: Error: you have chosen two options which contradict each other.
+Q6_VoiceOffer
+What about [INSERT NEW PROVIDER]'s voice / calling plan influenced your decision to switch to them?
+
+[READ LIST]
+
+[OPTIONS 1 TO 2 ARE EXCLUSIVE WITH EACHOTHER
+
+1. Unlimited anytime in Canada	[EXCLUSIVE]
+2. Unlimited evenings and weekends within Canada [EXCLUSIVE]
+3. Long-distance calling within Canada
+4. Roaming in Canada
+5. Roaming in US
+6. Others, specify [Text box]
+7. None; I did not consider the voice plan features as reason for choosing this provider [EXCLUSIVE]
+
+Q6_DataOffer
+What about [INSERT NEW PROVIDER]'s data plan influenced your decision to switch to them?
+[READ LIST]
+
+
+1. Bigger data bucket 
+2. Bonus data
+3. Data roaming in US
+4. Shock-free data
+5. Others, specify [Text box]
+6. None; I did not consider the data plan features as reason for choosing this provider [EXCLUSIVE]
+
+[ASK Q7a AMONG ALL]
+Q7b.	
+What is the base plan rate were you paying to <HSOURCE: Fido/Rogers], before taxes, additional charges or fees? 
+
+	$_____________
+	Refused			89
+	Don't know			99
+
+
+[ASK kjQ7 AMONG ALL]
+Q7.	
+What is the base plan rate you are paying to <[INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1], before taxes, additional charges or fees? 
+
+	$_____________
+	Refused			89
+	Don't know			99
+
+
+
+B. Incentives to switch
+
+Q9. Did you receive any of the following incentives from INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1]? [READ LIST, CHOOSE ALL THAT APPLY]
+
+	Discount on the handset 				1
+	Free months						2
+	Gift certificate	/Gift card	 			3
+	Accessory						4
+	They partially paid off your contract			5
+	They completely paid off your contract		6
+	They gave you a credit to port in			7
+	Money or credit for trading in your old phone	8
+	Discount from bundling with internet or TV		11
+	None [EXCLUSIVE] [DO NOT READ]			9
+
+[ASK Q9a IF DID NOT SELECT NONE-OPTION 9 IN Q9] 
+Q9a.  How did you first hear about the incentives from [INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1]
+
+Through Door to Door rep
+In lobby of my building
+Online/over the internet
+Over the Phone
+At a store or kiosk for [INSERT PROVIDER FROM Q1]
+Retail store such as Wireless Wave, The Source, Best Buy, Future Shop or Telephone Booth
+At a grocery store such as Costco, Loblaws, Target etc.
+Word of mouth (e.g. a friend, family member, coworker, etc.)
+Other (Please Specify)
+I don't know/Refused	
+
+
+
+[IF CODE 1, 5, 6 OR 7 OR 8 ASK Q9b]
+Q9b. What was the amount you received from INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1]?
+
+$______________
+
+C. CUSTOMER SERVICE EXPERIENCE
+
+[Multi Choice Flat]
+[Base: All]
+Q_BEFORE_CANCELLING. When you were deciding to cancel your HSOURCE:Rogers /Fido wireless service, did you do any of the following within a month prior to cancelling?
+
+[READ LIST]
+
+[ROWS-RANDOMIZE]
+Called cutomer service
+Went to a HSOURCE:Rogers /Fido store
+Started an online chat on the HSOURCE:Rogers /Fido website
+Visited the HSOURCE:Rogers /Fido website
+None of these [DON'T READ]
+
+
+[Multi Choice Flat]
+[IF Q_BEFORE_CANCELLING = Called customer service, visited a store or started an online chat]
+Q_SERVICE_CONTACT. What did you discuss with the service representative when you [Pipe in "called customer service" OR "started an online chat" OR "went to a HSOURCE:Rogers /Fido store"]?
+[DO NOT READ]
+
+[ROWS] 
+Cancelling your service
+Changing your price plan
+Getting a new device
+Unlocking your device
+Roaming
+Bill related issues
+Technical issues
+Made changes to account
+Added or removed a feature
+Purchased a new product or service
+Other (please specify):___________
+Don't know / Prefer not to say
+
+
+[Multi Choice Flat]
+[IF Q_BEFORE_CANCELLING = Visited Rogers/Fido website]
+Q_WEBSITE_VISIT. What did you do when you visited the HSOURCE: Rogers/Fido website before cancelling your service?
+[DO NOT READ]
+
+Start an online chat
+View types of plans
+View available promotions
+View available phones
+Contact customer service
+Other (please specify): ____________
+Don't know / Prefer not to say
+
+
+
+[Base: All] 
+Q_APP_AWARENESS
+[HSOURCE=Rogers]
+The MyRogers app allows you to monitor your Rogers wireless and internet usage, view your bill and make payments, top up data, and review account details for everyone on your Share Everything or Family plan.
+Were you aware of the MyRogers app before today?
+[HSOURCE=Fido]
+The Fido MyAccount app allows you to manage your account while you're on the go. You can track usage, view account balance, make a payment, among other things. 
+Were you aware of the Fido MyAccount app before today?
+[ROWS] [DO NOT READ]
+Yes, aware of the app
+Not aware of the app
+
+
+[Base: Q_APP_AWARENESS="Yes"]
+Q_APP_HOW_USED.
+Which of the following did you do with the [IF HSOURCE=Rogers, then "MyRogers", IF HSOURCE=Fido, THEN "Fido MyAccount"] app?
+
+[READ LIST]
+
+[ROWS]
+Monitor and/or manage wireless usage
+View your bill and make payments
+Top up data
+Review account details for people on your Share Everything or Family plan
+Looked for special promotions
+Avail of special promotions
+I downloaded the app, but did not use it
+Did not download the app
+Don't know / Prefer not to say
+
+
+
+
+
+DEMOGRAPHICS
+
+D1. In which age group do you belong?
+
+	14 to 17 years old		01
+	18 to 24 years old		02
+	25 to 29 years old		03
+	30 to 34 years old		04
+	35 to 39 years old		05
+	40 to 44 years old		06
+	45 to 49 years old		07
+	50 to 54 years old		08
+	55 to 59 years old		09
+	60 years or older		10
+	Prefer not to say
+
+D2. Record Gender: (DO NOT ASK)
+
+	Male		1
+	Female	2
+	Don't know	3
+
+
+AUTHORIZATION QUESTION
+
+Z1. Your responses will be combined with those of other customers. May we also have your permission to provide Rogers with your individual survey answers for analysis purposes? [IF RESPONDENT DOES NOT UNDERSTAND THE QUESTION, CLARIFY: Would you allow us to give your answers to this survey to Rogers to help them better understand your concerns?
+
+	Yes 			1
+	No			2
+
+Thank you very much for sharing your opinions with me today. Have a good day/evening.
+
+NOTE: Append "In Cable Footprint" and "Out of Cable Footprint" from sample file 
+
+
+Appended variables:
+Sample File: Roger Wireless Postpaid Sample
+Region: Column Z 
+
+

@@ -1,0 +1,516 @@
+﻿
+PREPAID PORT-OUT QUESTIONNAIRE
+
+
+
+CODING TO BE COMPLETED BY Maru / Matchbox FOR THE FOLLOWING QUESTIONS:
+Q3
+Q4 
+
+
+SAMPLING, ON A MONTHLY BASIS:
+0Rogers Prepaid Port-Outs0Fido Prepaid Port-Outs150Chatr Prepaid Port-Outs
+
+PREPAID PORT-OUT QUESTIONNAIRE 
+
+
+INTRO:
+
+
+Good morning/afternoon/evening, may I please speak to <insert first name from database>?
+(IF NOT THERE OR NOT AVAILABLE INTERVIEWER SHOULD ASK FOR A BETTER TIME / NUMBER TO CALL THEM BACK ON)
+
+Hello [INSERT FIRST NAME], my name is: ________ and I'm calling on behalf of <HSource: Rogers Wireless / Fido/Chatr>.  <HSource: Rogers Wireless / Fido/Chatr> has asked us to conduct a short survey in order to better understand the perceptions of its former customers.  It will only take about 10 minutes of your time.  I want to assure you that we are not trying to sell you anything.
+
+SCREENER:
+
+S1.	To begin, please tell me if you recently... READ LIST]
+
+1. Cancelled your Rogers Wireless Prepaid service [HIDE IF HSOURCE≠ROGERS]
+2. Cancelled your Fido Wireless Prepaid service [HIDE IF HSOURCE≠FIDO]
+3. Cancelled your Chatr Wireless Prepaid service [HIDE IF HSOURCE≠CHATR]
+
+Yes 		1
+No		2 
+Don't know/not applicable/refused 		3 
+
+
+IF NO OR DON'T KNOW IN S1 FOR OPTION 1,2 OR 3, ASK S1a
+S1a. Is there someone in your household who recently ended their <HSource: Rogers Wireless / Fido/Chatr> prepaid service that we can talk to?
+
+	DO NOT READ
+
+	Yes
+	No [TERMINATE]
+	Don't know [TERMINATE]
+
+
+TEXT IF S1a=YES: Can I please speak with this person? French: Puis-je parler avec cette personne?
+Do not read
+Yes [Continue to S2]
+No [THANK AND TERMINATE]
+
+
+TERMINATE DQ TEXT: 
+Thank you for your interest in taking this survey. However based on your answers so far, you will not find the rest of the survey is relevant to you. Thank you for your time.
+
+Ask All
+S1a2. Prior to cancelling your <HSource: Rogers / Fido/Chatr> wireless service, how many mobile phone numbers or lines did you have with <HSource: Rogers Wireless / Fido/Chatr>?
+[INSERT DROP DOWN, 1 TO 10]
+
+
+[IF "1" AT S1a2, AUTOPUNCH S1b AS "1" AND DO NOT ASK.] S1b. How many <HSource: Rogers Wireless / Fido/Chatr> mobile phone numbers or lines did you cancel?
+
+[RANGE IS 1=S1a2 RESPONSE] 
+ 
+S2.	Have you signed up for cell phone service with another wireless provider to replace <HSource: Rogers Wireless / Fido/Chatr>?
+
+	DO NOT READ
+
+	Yes		1	CONTINUE
+	No		2	SKIP Q1 and Q2 in Main Questionnaire (still ask screener questions), Go to Q3
+
+
+S2a. Prior to cancelling your <HSource: Rogers Wireless / Fido/Chatr> wireless prepaid service, were you subscribed to any other Rogers services? 
+
+DO NOT READ
+Yes		1
+No		2 SKIP TO S3
+
+S2b. Which services would those be?
+READ 
+Cable TV				1
+High speed internet			2
+Home phone				3
+Smart Home Monitoring		4
+Postpaid Wireless/Cell phone		5
+
+
+S3. Are you currently subscribed to any service with Rogers?
+DO NOT READ
+Yes		1
+No		2 SKIP TO Q1
+
+S4. [IF YES TO S3] Which services would those be?
+READ 
+Cable TV				1 
+High speed internet			2
+Home phone				3
+Smart Home Monitoring		4
+Postpaid Wireless/Cell phone		5
+
+[IF CABLE TV IN S2b BUT NOT IN S4 (including those who said NO in S3), CODE AS CABLE CANCELLER]
+[IF INTERNET IN S2b BUT NOT IN S4, CODE AS INTERNET CANCELLER]
+[IF HOME PHONE IN S2b BUT NOT IN S4, CODE AS HOME PHONE CANCELLER]
+[IF SMART HOME MONITORING IN S2b BUT NOT IN S4, CODE AS SMART HOME MONITORING CANCELLER]
+[IF POSTPAID IN S2b BUT NOT IN S4, CODE AS POSTPAID CANCELLER]
+
+[IF CABLE TV IN S2b AND IN S4, CODE AS CABLE STAYER]
+[IF INTERNET IN S2b AND IN S4, CODE AS INTERNET STAYER]
+[IF HOME PHONE IN S2b AND IN S4, CODE AS HOME PHONE STAYER]
+[IF SMART HOME MONITORING IN S2b AND IN S4, CODE AS SMART HOME MONITORING STAYER]
+[IF POSTPAID IN S2b AND IN S4, CODE AS POSTPAID STAYER]
+
+[IF CABLE TV NOT IN S2b (including those who said NO in S2a), BUT IN S4, CODE AS CABLE ADDER]
+[IF INTERNET NOT IN S2b BUT IN S4, CODE AS INTERNET ADDER]
+[IF HOME PHONE NOT IN S2b BUT IN S4, CODE AS HOME PHONE ADDER]
+[IF SMART HOME MONITORING NOT IN S2b BUT IN S4, CODE AS SMART HOME MONITORING ADDER]
+[IF POSTPAID NOT IN S2b BUT IN S4, CODE AS POSTPAID ADDER]
+
+[IF CABLE TV NOT IN S2b (including those who said NO in S2a), AND NOT IN S4 (including those who said NO in S3), CODE AS CABLE NEVER]
+[IF INTERNET NOT IN S2b AND NOT IN S4, CODE AS INTERNET NEVER]
+[IF HOME PHONE NOT IN S2b AND NOT IN S4, CODE AS HOME PHONE NEVER]
+[IF SMART HOME MONITORING NOT IN S2b AND NOT IN S4, CODE AS SMART HOME MONITORING NEVER]
+[IF POSTPAID NOT IN S2b AND NOT IN S4 CODE AS POSTPAID NEVER]
+
+
+
+
+MAIN QUESTIONNAIRE:
+
+Q1.	Who is your new cell phone provider? (DO NOT READ LIST, SELECT ONE ONLY)
+
+	Telus Mobility 		1
+	Koodo		2             	
+	Bell Mobility		3	
+	Virgin Mobile	... 4	
+	Freedom Mobile...................................8
+	Public Mobile.......................................9
+	Mobilicity...........................................10
+	Videotron...........................................11
+	Bell MTS......	12
+	SaskTel		13              
+	Eastlink...............................................14
+Lucky Mobile.......................................17
+	Rogers [ONLY SHOW FOR HSource CHATR]...15 
+	Fido [ONLY SHOW FOR HSource CHATR]...16 		
+	Other providers (please specify) ______________		98
+	Don't know/Not sure [TERMINATE]
+
+Q1a.	Had you ever subscribed to [INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1] for wireless service before you signed up with <HSource: Rogers Wireless / Fido / Chatr>?
+
+         Yes
+         No
+
+
+ASK ALL
+Q2	What type of service plan did you choose with [INSERT PROVIDER FROM Q1 OR "your new provider" if code 98 at Q1]
+READ LIST
+1. Monthly Individual/Single-line Plan (for which you receive a monthly invoice)
+2. Monthly Family/Shared/Multi-line Plan (for which you or someone in your household receive a monthly invoice)
+3. Billed to the Company (for which only your employer gets the bill directly) 
+4. Pre-Paid/Pay-as-you-go (for which you buy some airtime or vouchers whenever you run out of credits)
+5. Don't Know
+
+
+IF 1-2 for Q2
+Q2b. To the best of your knowledge, were you approached by [HSource: Rogers/Fido/Chatr] to switch your prepaid plan to postpaid plan prior to leaving?
+DO NOT READ
+
+1. Yes
+2. No
+3. Don't know/Don't recall
+
+
+
+ASK ALL
+Q3)  What were the MAIN REASONS that you left <INSERT EITHER ROGERS WIRELESS OR FIDO OR Chatr>? DO NOT READ LIST.   . [SELECT ALL THAT APPLY]
+		
+		Price & Package
+	Moved to a postpaid package with another provider		
+	I found a cheaper plan with another provider
+	I found a better deal with another provider       
+	Bundling / Bundle of communications' services with another provider		
+		Too expensive (general)						
+		Cost per minute (airtime) too expensive				
+	Features too expensive						
+		Lack of variety of services						
+		Lack of unlimited options						
+	No unlimited plans		
+Had to spend a minimum amount every month
+Did not include evenings and weekends
+Received a corporate/association discount	
+Service plans that do not meet needs	
+
+
+		Geographic Coverage & Reception
+	No coverage
+Poor reception/reception quality
+Dropped calls
+Speed was too slow							
+		
+		Handsets
+		Quality of handsets and equipment					
+		I needed a new handset that <HSOURCE: Fido/Rogers/Chatr> did not offer	            
+		Poor selection of handsets						
+		Lack of $0 / discounted handsets					
+	Dissatisfaction with the handset
+	Issue replacing the phone
+Could not upgrade phone
+Unhappy with cost of upgrading phone
+Phone issues (technical)/phone didn't work
+Wanted a new phone
+The phone I wanted was not available in the store
+Could not get the phone I wanted on my price plan					
+
+		Customer Service
+		Poor customer service	on the phone
+		Customer service was not able to resolve my problem		
+		Long wait times for customer service					
+	Got transferred several times
+		Had to call repeated time to get information / issue resolved	
+		Store location (there isn't one near me)				
+	Difficult to find prepaid vouchers
+Difficult to reach a live representative
+	Customer service (in general)					
+
+Fido Rewards [FOR FIDO SAMPLE ONLY]
+Could not use my Fido Rewards
+Dissatisfied with Fido Rewards	
+
+
+
+
+
+
+
+
+Others
+	
+Negative image of <HSOURCE: Fido/Rogers/Chatr>					
+	Business decision (my employer decided)				
+				
+	Others (specify) _____________________________	[CODE]	
+	No reasons								
+	DNK/NA								
+
+
+SKIP Q4 IF CODE 2 AT S2
+
+Q4.	Why did you specifically choose <INSERT NAME OF NEW PROVIDER FROM Q1 OR "the provider that you chose" if code 98 at Q1> as your new cell phone provider?  (DO NOT READ.  SEVERAL MENTIONS POSSIBLE)
+
+	PROBE: ASK "What other reasons made you choose the provider?"
+
+1. They offered the right/best rate plan for me
+2. EPP/Friends and Family
+3. No activation fee
+4. Lower prices / better prices
+5. Free /Unlimited Minutes/Evenings & weekends
+6. Unlimited incoming calls / minutes
+7. Long distance packages
+8. Unlimited text messaging/Text message package
+9. No system access fee 
+10. Promotion on handset price
+11. Phone Selection/they had the desired handset
+12. Free handset / phone
+13. Could bring my own handset
+14. Liked that tab can be used towards buying new phone
+15. Wanted to try something new
+16. Advice from friends/family, word of mouth
+17. They have simpler packages /easier to understand
+18. They have no contract / I don't like contracts
+19. They have no termination fee / no penalty if I leave
+20. Liked that tab can be used towards buying new phone
+21. No longer wanted to stay with <HSOURCE: Fido/Rogers/Chatr>
+22. Received a discounted corporate / association plan
+23. Business decision
+24. Believed network would be better 
+25. More coverage/ extended area of coverage
+26. Speed of data/internet
+27. Customer service in store
+28. Customer service on the phone
+29. Customer service (non-specified)
+30. The store was right there/convenient location
+	
+	Other (SPECIFY) _______________________________		97 (PROBE UNTIL UNPRODUCTIVE) [CODE]
+	DK/refused 		99
+
+
+
+[ASK ALL]
+Q5a. Did you have a voice only plan or a voice and data plan with <HSOURCE: Fido/Rogers/Chatr>?
+
+       Voice only plan		1
+	Voice and data plan		2
+	Don't know/not sure		98
+
+[ASK ALL]
+Q6a.	And which other features did you have added to your phone plan with <HSOURCE: Fido/Rogers/Chatr> ? Did you add... (READ LIST.  CHOOSE ALL THAT APPLY)
+
+		Voice mail		1
+		Call display		2
+		Text messaging		3
+		Canadian/ Domestic Long distance		4
+		US Long distance		5
+		International Long distance		6
+		No other features/nothing		7
+		[DO NOT READ] Other (specify)________		8
+		[DO NOT READ] DNK/not sure		9
+
+
+
+
+DO NOT ASK Q5, Q6, Q7 TO THOSE WHO GAVE CODE 2 AT S2. IF CODE 2 AT S2 SKIP TO Q8a.
+Q5. 	Do you currently have a voice only plan or a voice and data plan with [INSERT PROVIDER FROM Q1 or "your new provider" if code 98 at Q1]
+
+	Voice only plan		1
+	Voice and data plan		2
+	Don't know/not sure		98
+
+Q6.	And which other features did you add to your phone plan? Did you add... (READ LIST.  CHOOSE ALL THAT APPLY)
+
+		Voice mail		1
+		Call display		2
+		Text messaging		3
+		Canadian/ Domestic Long distance		4
+		US Long distance		5
+		International Long distance		6
+		No other features/nothing		7
+		[DO NOT READ] Other (specify)________		8r
+		[DO NOT READ] DNK/not sure		9
+
+
+Q7.	Where did you go to transfer your number? (READ) 
+
+	[INSERT PROVIDER FROM Q1or "New provider's" if code 98] store or kiosk		1
+	Best Buy						2
+	The Source						4
+	Wireless Wave						5
+	CostCo						6
+	Telephone Booth					7
+	Over the phone					8
+	Online/over the internet				11
+	Loblaws/Superstore					12
+	A different store (INTERVIEWER TO SPECIFY)____________________		98 
+
+[ASK ALL]
+Q8a. 	On average what is the base plan rate you were paying to <HSOURCE: Fido/Rogers/Chatr>, before taxes, additional charges or fees?  
+Interviewer Note: If respondent says 0, probe more. If employer is paying, code as Don't know
+
+	$_____________
+	Refused			89
+	Don't know			99
+
+DO NOT ASK Q8 TO THOSE WHO GAVE CODE 2 AT S2. IF CODE 2 AT S2 SKIP TO Q9.
+Q8.	On average what is the base plan rate you are paying to [INSERT PROVIDER FROM Q1 OR "your new provider" if code 98], before taxes, additional charges or fees?  
+Interviewer Note: If respondent says 0, probe more. If employer is paying, code as Don't know
+
+	$_____________
+	Refused			89
+	Don't know			99
+
+
+
+
+
+
+
+[ASK Q_BYOD to ALL]
+Q_BYOD.  Which of the following statements accurately describes how you received your current mobile phone?
+I received it from my current service provider
+I was given the phone from a family member, friend or colleague
+I purchased it somewhere other than my current provider (ie. Online such as Kijiji or Craigslist, store such as Apple store, Google Play store or manufacturer store)
+I purchased my phone outside of the country
+I kept my phone from <HSOURCE: Rogers/Fido/Chatr > 
+Don't know
+
+
+
+
+ASK Q11 AND DEMOGRAPHIC QUESTIONS TO ALL RESPONDENTS
+Q11.	Before you decided to cancel your service, did you call (INSERT EITHER ROGERS WIRELESS OR FIDO OR CHATR) customer service to find a solution or to match a competitive offer?
+Do Not Read
+
+	Yes		1
+	No		2
+
+
+DEMOGRAPHICS:
+DEMO1.	In what age group do you belong?  (READ.  CHECK ONLY ONE ANSWER)
+
+	14 to 17 years old		01
+	18 to 24 years old		02
+	25 to 29 years old		03
+	30 to 34 years old		04
+	35 to 39 years old		05
+	40 to 44 years old		06
+	45 to 49 years old		07
+	50 to 54 years old		08
+	55 to 59 years old		09
+	60 years or older		10
+Prefer not to say
+
+DEMO2.	Which of the following categories best describes your total annual household income before taxes?  (READ)
+
+	Less than $20,000		1
+	$20,000 to under $35,000		2
+	$35,000 to under $50,000		3
+	$50,000 to under $75,000		4
+	$75,000 to under $100,000		5
+	$100,000 to under $150,000		6
+	$150,000 or more		7
+	 [DO NOT READ] DK/refused		8
+
+[ASK ONLY CHATR]
+DEMO5. Are you employed either full or part time (or doing something else)?
+
+Full time..................................................1
+Part time.................................................2
+Unemployed, looking for work............3
+Retired.....................................................4
+Homemaker............................................5
+Student....................................................6
+[DO NOT READ] DK/refused.................7
+
+[ASK ONLY CHATR AND DEMO5=1 OR DEMO5=2]
+DEMO6. Which of the following best describes the sector of the economy you are employed in?
+
+Management........................................................................... 1
+Business/Finance/Administration..................................................2
+Science - Natural or Applied/& Related.......................................3
+Health Occupations.................................................................  4
+Education/Law/Social, Community & Government Services..........5
+Arts/Culture/Recreation/Sport.....................................................6
+Sales and Service/Retail.............................................................7
+Trades/Transportation/Equipment Operator & Related.................8
+Natural Resources/Agriculture/& Related...................................9
+Manufacturing/Utilities.................................................................10
+Other [Please Specify:]....................................................................11
+[DO NOT READ] DK/Refused...........................................................12
+
+
+[ASK ONLY CHATR]
+DEMO7.  Were you born in Canada?
+
+1. Yes
+2. No
+3. Prefer not to say
+
+[ASK ONLY CHATR AND DEMO7=2]
+DEMO8. When did you move to Canada? 
+
+1. Less than 5 years ago
+2. 5 years or more but less than 10 years ago
+3. 10 years or more but less than 20 years ago
+4. 20 years or more
+5. Prefer not to say
+
+[ASK ONLY CHATR AND DEMO7=2]
+DEMO9. What is your first language?
+[DO NOT READ LIST]
+1. English
+2. Arabic
+3. Chinese
+4. Danish 
+5. Dutch 
+6. Finish 
+7. French 
+8. German 
+9. Greek 
+10. Hindi 
+11. Hungarian 
+12. Indonesian 
+13. Italian 
+14. Japanese 
+15. Norwegian 
+16. Polish 
+17. Portuguese 
+18. Russian 
+19. Slovak 
+20. South Korean 
+21. Spanish
+22. Swedish 
+23. Tagalog 
+24. Thai 
+25. Turkish
+26.  Other (specify)
+27. DK / Refused
+
+
+[ASK ONLY CHATR]
+BASE: ALL
+DEMO10. What is your postal code?
+[TEXT BOX, CONFIRM CORRECT FORMAT (letter, number, letter,etc.)]
+Don't know / Prefer not to say
+
+DEMO3.	Record gender: (DO NOT ASK)
+
+	Male		1
+	Female		2
+	Don't know	3
+
+
+
+DEMO4.	Your responses will be combined with those of other customers. May we also have your permission to provide <INSERT Rogers or Fido or Chatr> with your individual survey answers for analysis purposes?  [IF RESPONDENTS DO NOT UNDERSTAND THE QUESTION, CLARIFY:  Would you allow us to give your answers to this survey to <Rogers/Fido> to help them better understand your concerns?]
+
+	Yes		1
+	No		2
+
+
+Thank you very much for sharing your opinions with me today. Have a good day/evening.
+
+
+
+Page 1	
+
+

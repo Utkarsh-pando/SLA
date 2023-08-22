@@ -1,0 +1,702 @@
+﻿Cable Churn Questionnaire
+
+
+APPEND PRODUCTS THEY HAD WITH ROGERS - TV ONLY, INTERNET ONLY, TV AND INTERNET
+Coding:
+Maru to code: 
+S3Q1a, S3Q2
+S2Q1a, S2Q2
+
+
+
+Sampling: These quotas will be based off Hidden Variable: Cancellation_Type
+Segment #Target n per monthSegment nameDefinition of sample segment:8100Rogers TV Only ChurnersCancellation_Type=TV_Only9100Rogers Internet Only ChurnersCancellation_Type=Internet_Only10100Rogers TV and Internet ChurnersS1Q1= code 2 AND code 3
+
+Good morning/afternoon/evening, may I please speak to <insert name from database>?
+(IF NOT THERE OR NOT AVAILABLE INTERVIEWER SHOULD ASK FOR A BETTER TIME / NUMBER TO CALL THEM BACK)
+
+Hello, my name is: ________ and I'm calling on behalf of Rogers. Rogers has asked us to conduct a short survey in order to better understand the perceptions of its former customers.  It will only take ten minutes of your time. I want to assure you that we are not trying to sell you anything.
+
+Screener
+
+S2.	Are you the person in your household responsible for making telecommunication decisions? [READ LIST]
+
+	Yes, sole decision maker 				1
+	Yes, a co-decision maker				2
+	No, you have NO influence in the decision making	3	
+
+
+If S2 =code 3 ask S2a
+
+S2a. Can I please speak with the member in your household who is either the sole decision maker or the co-decision maker for decisions regarding your telecommunications service?
+
+Yes
+No [TERMINATE]
+
+
+(Question below moved up)
+
+S1Q1.	To begin, please tell me which of the following you recently did... [READ LIST]
+	
+	Cancelled your high speed internet with Rogers		2 [NOTE TO INTERVIEWER: WE ARE ASKING ABOUT FIXED INTERNET (AS IN FOR YOUR HOME AND NOT FOR YOUR MOBILE DEVICE]
+	Cancelled your cable TV with Rogers				3
+       JUST SELECT EITHER CODE 2 OR 3 TO QUALIFY. IF NO TO BOTH CODES 2 AND 3, THANK AND TERMINATE, 
+
+Yes	1
+No	2
+
+
+Hidden Variable: Cancellation_Type:
+TV_Only: if selected option 3  only and no other codes.
+Internet_Only: if selected option 2 only only and no other code
+TV&Int: If selected option 2 & 3 only and no other codes
+TV, Wireless_Rogers, Int: If selected Option 2 & 3 & 4, no other codes
+
+TERMINATE IF NO TO BOTH
+
+
+
+S3.	Are you a student?
+
+	INTERVIEWER NOTE: IF STUDENT, PROBE IF FULL TIME OR PART TIME
+ 
+             Yes, part-time 	         1
+	Yes, full-time	         2 TERMINATE
+	No, not a student     3	
+
+TERMINATE DQ TEXT: 
+Thank you for your interest in taking this survey. However based on your answers so far, you will not find the rest of the survey is relevant to you. Thank you for your time.
+
+MAIN QUESTIONNAIRE
+
+Section 1: Background
+
+D3.	Which province do you live in? [DO NOT READ]
+ 
+       New Brunswick			1 
+       Newfoundland		2
+       Ontario			3
+       Other				999
+       
+       USE THIS VARIABLE FOR REGIONAL MASKING. DO NOT USE APPENDED VARIABLE
+       
+S1Q1a. You mentioned that you cancelled your TV or internet service recently with Rogers. Prior to cancelling, which Rogers services were you subscribed to? 
+[AUTOPUNCH ANY SERVICES CANCELLED AT S1Q1]
+
+READ LIST 
+       Cable TV				1
+	High speed Internet			2
+	Home Phone				3
+	Wireless/Cell phone			4
+       Smart Home Monitoring		5 
+
+[IF MORE THAN ONE SERVICE AT S1Q1a]
+S1Q1b. 
+Were the services that you subscribed to with Rogers part of a bundle?
+Yes
+No
+Don't know
+
+
+
+S1Q2a. Are you currently subscribed to any service with Rogers?
+		
+Yes			1
+	No			2	SKIP TO S1Q2c
+	
+
+
+S1Q2b. [IF YES TO S1Q2a]Which service would that be? (MASK SERVICES SELECTED AT S1Q1]
+READ LIST
+[AUTOPUNCH IF SERVICE SELECTED AT S1Q1a BUT NOT AT S1Q1]
+[SHOW HOME PHONE, WIRELESS ,SMART HOME REGARDLESS]
+	
+       Cable TV				1
+	High speed Internet			2
+	Home Phone				3
+	Wireless/Cell phone			4
+       Smart Home Monitoring		5 
+
+
+
+
+
+
+
+S1Q3.	[FOR EACH SERVICE CANCELLED AT S1Q1] 
+Have you signed up for any of the following services with another provider to replace Rogers?
+
+YesNoDK/RefusedA) InternetB) Cable/Satellite TV
+
+
+
+FOR THOSE WHO SAY YES TO S1Q3 OPTION C (CABLE TV)]:
+S1Q5.	You indicated that you have signed up with a new TV service provider to replace Rogers. Which provider would that be? 
+[DO NOT READ LIST - ACCEPT ONLY ONE RESPONSE, PROBE AS NECESSARY TO GET BEYOND "BELL" OR "BELL ALIANT"]
+[PN: APPEND PROVINCE VARIABLE FROM SAMPLE FILES-COLUMN U]
+
+       Bell TV or Bell ExpressVu a satellite service that requires a satellite dish	1 (ONTARIO ONLY)
+       Bell Fibe TV								2 (ONTARIO ONLY) 
+       Bell Aliant TV								3 (ATLANTIC ONLY) 
+       
+       Bell Aliant TV satellite							4 (ATLANTIC ONLY) 
+        
+       Bell Aliant FibreOP TV							5 (ATLANTIC ONLY) 
+       Bell Alt TV
+
+       Cogeco 									6
+       Shaw Direct, formerly called Star Choice 					7
+       Other  (SPECIFY)_________________						888
+       Don't Know									999
+
+
+
+
+[FOR THOSE WHO SAY YES TO S1Q3 OPTION B (INTERNET)]:
+S1Q4.	You indicated that you have signed up with a new INTERNET service provider to replace Rogers. Which provider would that be? 
+       [DO NOT READ LIST - ACCEPT ONLY ONE RESPONSE]
+
+	Bell/Sympatico (all Bell Mentions in Ontario)		1
+	Bell Aliant (all Aliant mentions in ATLANTIC)		2 
+	Sprint (Now Rogers Telecom)				3
+	TekSavvy						4
+	ACANAC						5
+	YAK							6
+	Fido internet						7
+	Virgin internet						8
+	Other Mobile Internet Provider (i.e. Telus, Wind)	11
+	Do not pay for Internet services at home		22
+	Other (Specify)________________________ 		888
+	DK/NA							999
+
+[PARTICIPANTS MUST FULFILL BOTH OF THE FOLLOWING IN ORDER TO QUALIFY FOR S1Q4a:
+1. SELECTED ANY BELL RESPONSE TO S1Q5
+2. SELECTED ANY BELL RESPONSE TO S1Q4
+
+
+
+
+Base: Subscribers to both Bell TV and Internet
+S1Q4a. You mentioned that you signed up with Bell for both TV and Internet services. Which of the statements about your current TV and Internet services with Bell are true?
+
+Your TV and Internet services are part of a bundle					1
+Your TV and Internet services are priced individually, as opposed to a bundle	2
+
+HIDDENVAR: BELL_BUNDLE=Code 1 at S1Q4a
+
+
+ASKI S1Q4b IF BELL_BUNDLE 
+Base: Bell_Bundle
+S1Q4b: You indicated that your TV and Internet services are part of a bundle with Bell. Are there any other service types that are included in this bundle?
+
+Yes	1
+No	2
+Don't know	3
+
+ASKI S1Q4c IF YES TO S1Q4b  
+S1Q4c: Which services are included in your bundle with Bell? (multi-choice)
+ 
+Home phone
+Wireless service for tablet
+Wireless service for mobile phones
+Home Monitoring (Atlantic ONLY)
+
+
+
+[ASK QBundle1 to QBundle 3 IF Bell_Bundle]
+
+QBundle1.	When you signed up with Bell for your TV and Internet service, did you receive a promotional price period which will apply to your bill for the first few months of your service?
+
+       Yes		1
+       No		2
+       Don't know	999
+
+
+
+
+Section 2: High Speed Internet: SKIP TO S3Q1a IF CODE 2 NOT SELECTED AT S1Q1.
+
+For the following questions, please think about your recently cancelled Rogers High Speed Internet
+
+[ASK IF CODE 2 AT S1Q1: CANCELLED ROGERS HIGH SPEED INTERNET]
+Q_INT_SATISFIED. Prior to cancelling your Rogers internet service, were you satisfied or dissatisfied with the service you received? Would you say you were...
+
+1. Very dissatisfied
+2. Somewhat dissatisfied
+3. Neither satisfied nor dissatisfied
+4. Somewhat satisfied
+5. Very satisfied
+99. Don't know / Refused [DO NOT READ]
+
+
+[ASK IF CODES 1 THROUGH 4 AT Q_INT_SATISFIED]
+Q_INT_WHY_DISSATISFIED. Thinking back to when you first felt that you were not entirely satisfied with your Rogers internet service, what specificly were you not entirely happy with? [PROBE]
+
+
+[OPEN-END TEXT BOX]
+**WILL CODE THEN PRODUCE LIST OF RESPONSE OPTIONS
+
+
+
+S2Q1a.	[ASK IF CODE 2 AT S1Q1: CANCELLED ROGERS HIGH SPEED INTERNET]
+What would you say was the breaking point that led you to cancel your Rogers High Speed Internet? 
+[IF HAVE NEW PROVIDER, I.E. YES AT S1Q3, SAY:] Please think about your reason for leaving Rogers rather than your reason for choosing another provider. [CHOOSE ALL THAT APPLY. DO NOT READ. PROBE]
+
+High prices100Extra/hidden fees110Bandwidth usage cap150Customer service200Found better deal with a competitor300Billing issues400Consolidation of services/bundling500You moved to an area where Rogers service was not available600No need for service (general)700You could not connect to Internet/frequent drops800Slow internet speed810A promotion from the provider that I switched to820You were dissatisfied with another service I had with Rogers, so decided to cancel all services830Other (Specify)__________________________888Don't know 999
+
+[ASK IF S2Q1a = CODE 100, 110, 150, 200, 400, 500, 800, 810 OR 830]	
+Q_INT_RESOLUTION. Did Rogers do anything to fix the problem(s) you had with your internet service? Did Rogers...
+
+1. Successfully fix the problem
+2. Try to but fail to fix the problem
+3. Fixed the problem, but only temporarily 
+4. Not try to fix the problem at all
+99. Don't know / Refuse [DO NOT READ]
+
+
+
+[ASK IF CODE 2 AT S1Q1: CANCELLED ROGERS INTERNET AND YES AT S1Q3: HAVE NEW INTERNET PROVIDER]
+DO NOT ASK S2Q2 IF S1Q4=code 22
+S2Q2.	What was it about [INSERT PROVIDER FROM S1Q4. IF CODE 11, 888 or 999: "your new provider] that made you choose them as your new Internet provider? [DO NOT READ] [CHOOSE ALL THAT APPLY] [PROBE UNTIL UNPRODUCTIVE:i.e. Any other reasons you can think of?]
+
+1. Lower price
+2. Better deal
+3. Bandwidth cap/amount of data
+4. Speed/speed of data transfers
+5. Dissatisfied with Rogers 
+6. Ability to bundle with other services
+7. Reliable network connection
+8. Customer service
+9. Technical support
+10. Had previous experience with them
+11. Recommended by friends or family
+12. Also received fibre TV
+13. Poor Wi-Fi reception/Wi-Fi issues
+14. Other (Specify)__________________________
+15. DK/NA
+
+
+
+[ASK Q_INTATTRIBUTES1, Q_INTATTRIBUTES1 QS2Q3, S2Q3b, S2Q3c, S2Q3d HAS THE FOLLOWING QUALIFYING LOGIC. RESPONDENT MUST FULFILL BOTH QUALIFIERS 1 AND 2:
+1. Cancelled Rogers High Speed Internet: CODE 2 AT S1Q1: 
+2. Have new Internet Provider YES AT S1Q3- OPTION B: INTERNET PROVIDER]
+
+
+Q_INTATTRIBUTES1. Comparing your Rogers internet service with that of [INSERT NEW PROVIDER FROM Q1Q4], please indicate whether each of the following aspects of the internet service were better with Rogers, better with [INSERT NEW PROVIDER FROM Q1Q4], or about the same.
+
+[COLUMNS-READ RESPONSE OPTIONS ONCE, AND REPEAT ONLY IF NECESSARY]
+Much better with Rogers
+Somewhat better with Rogers
+About the same
+Somewhat better with [INSERT NEW PROVIDER FROM Q1Q4]
+Much better with [INSERT NEW PROVIDER FROM Q1Q4]
+
+
+[ROWS RANDOMIZE]
+Internet speed
+Consistency of connection (no/rare down times)
+Your bill was easy to understand
+Your bill was what you expected
+Value for your money
+The overall pricing
+Wi Fi reach within your home
+Bandwidth caps
+
+
+S2Q3.	When you signed up for your high speed internet with your [INSERT PROVIDER FROM S1Q4. IF CODE 11, 888 or 999: "your new provider], did you receive a promotional price period which will apply to your bill for the first few months of your service?
+
+Yes	1
+No	2
+Don't know	3
+
+
+       
+       
+       
+
+S2Q3c.	TEXT FOR IF  S2Q3=1,YES: After that promotional price period is over, what will be the new monthly total of your high speed internet service?
+TEXT FOR IF  S2Q3=2 OR: What is the monthly total of your high speed internet service?
+
+	INSERT ADDITIONAL QUESTION TEXT IF BELL_BUNDLE: You indicated that your new internet service is part of a bundle with Bell. Please try and think of the cost of your Internet service alone for this question. If you are not sure of the exact price, please provide your best estimate.
+       		
+Open End Numeric$
+Don't know [EXCLUSIVE]
+Refused [EXCLUSIVE]
+       
+S2Q3d.	
+And what was the total monthly bill you were paying for your high speed internet service with Rogers?  
+ 
+	$_____________
+	Refused			89
+	Don't know			99
+       
+       
+[ASK IF CODE 2 AT S1Q1: CANCELLED ROGERS INTERNET AND YES AT S1Q3-OPTION B: HAVE NEW INTERNET PROVIDER]
+S2Q4. Which statement best applies to you?
+
+
+Single Select
+[INSERT PROVIDER FROM S1Q4. IF CODE 11, 888 or 999: "Your new provider] first contacted me about Internet service		1
+I first contacted INSERT PROVIDER FROM S1Q4. IF CODE 11, 888 or 999: "your new provider] about Internet service		2
+
+[ASK IF CODE 1 AT S2Q4]
+S3Q4b. Thinking back to that first time you were contacted by [INSERT PROVIDER FROM S1Q4. IF CODE 11, 888 or 999: "your new provider]] to discuss Internet service, how did they do this? 
+
+Through Door to Door rep
+In lobby of my building
+Online/over the internet
+Over the Phone
+At a store or kiosk for [INSERT PROVIDER FROM S1Q4. IF CODE 11, 888 or 999: "your new provider]]
+At a third party retail store such Future Shop, Best Buy etc.
+Other (Please Specify)
+I don't know/Refused	
+
+
+
+
+
+Section 3: Cable TV
+
+For the following questions, please think about your recently cancelled Rogers TV service.
+
+
+[ASK IF CODE 3 AT S1Q1: CANCELLED ROGERS CABLE TV]
+Q_TV_SATISFIED. Prior to cancelling your Rogers TV service, were you satisfied or dissatisfied with the service you received? Would you say you were...
+
+1. Very dissatisfied
+2. Somewhat dissatisfied
+3. Neither satisfied nor dissatisfied
+4. Somewhat satisfied
+5. Very satisfied
+99. Don't know / Refused [DO NOT READ]
+
+
+[ASK IF CODES 1 THROUGH 4 AT Q_INT_SATISFIED]
+Q_TV_WHY_DISSATISFIED. Thinking back to when you first felt that you were not entirely satisfied with your Rogers TV service, what specificly were you not entirely happy with? [PROBE]
+
+[OPEN-END TEXT BOX]
+**WILL CODE THEN PRODUCE LIST OF RESPONSE OPTIONS
+
+
+
+S3Q1a.	[ASK IF CODE 3 AT S1Q1: CANCELLED ROGERS CABLE TV]
+What would you say was the breaking point that led you to cancel your Rogers cable TV subscription? 
+[IF HAVE NEW PROVIDER, I.E. YES AT S1Q3 FOR TV, SHOW:] Please think about your reason for leaving Rogers rather than your reason for choosing another provider. [CHOOSE ALL THAT APPLY. DO NOT READ. PROBE: "Anything else?"]
+
+High prices100Ongoing rate increases150Customer service200Found better deal with a competitor300Billing issues400I wanted 'wireless TV'450Consolidation of services/bundling500You moved to an area where Rogers service was not available600You don't watch much TV700Dissatisfied with channel selection710Cable box not working properly800Poor reception/signal810You were dissatisfied with another service I had with Rogers, so decided to cancel all services820Other (Specify)__________________________888Don't know999
+
+
+[ASK IF S3Q1a = CODE 100, 150, 200, 400, 450, 500, 710, 800, 810 OR 820]	
+Q_TV_RESOLUTION. Did Rogers do anything to fix the problem(s) you had with your TV service? Did Rogers...
+
+1. Successfully fix the problem
+2. Try to but fail to fix the problem
+3. Fixed the problem, but only temporarily 
+4. Not try to fix the problem at all
+99. Don't know / Refuse [DO NOT READ]
+
+
+
+[ASK IF CODE 3 AT S1Q1: CANCELLED ROGERS CABLE TV AND YES AT S1Q3 CODE C: HAVE NEW TV PROVIDER]
+
+S3Q2.	What was it about [INSERT PROVIDER FROM S1Q5 OR "your new provider" if code 888 or 999] that made you choose them as your new TV provider? [DO NOT READ] [CHOOSE ALL THAT APPLY] [PROBE UNTIL UNPRODUCTIVE]
+
+1. Pricing
+2. Picture quality
+3. Program content/channel selection
+4. Better features offered
+5. Remote wireless PVR
+6. Wireless TV
+7. Bundled with other services
+8. Customer service
+9. Free PVR offer
+10. Better offer/deal
+11. High Definition Programming
+12. Only option other than satellite
+13. Dissatisfied with Rogers 
+14. Recommended by friends/family
+15. Previous experience with them
+16. Also received fibre optic internet
+17. Crave TV
+18. Other (Specify)__________________________
+19. DK/NA
+
+
+
+[ASK Q_TVATTRIBUTES1, QS3Q3TV1, S3Q3TV2, S3Q3TV3, S3Q3TV4 HAS THE FOLLOWING QUALIFYING LOGIC. RESPONDENT MUST FULFILL BOTH QUALIFIERS 1 AND 2
+1. Cancelled Rogers cable TV: CODE 3 AT S1Q1: 
+2. Have new Cable TV Provider YES AT S1Q3- OPTION C: Cable/Satellite TV
+
+
+Q_TVATTRIBUTES1. Comparing your Rogers TV service with that of [INSERT NEW PROVIDER FROM Q1Q5], please indicate whether each of the following aspects of TV service were better with Rogers, better with [INSERT NEW PROVIDER FROM Q1Q5], or about the same.
+
+[COLUMNS]
+Much better with Rogers
+Somewhat better with Rogers
+About the same
+Somewhat better with [INSERT NEW PROVIDER FROM Q1Q5]
+Much better with [INSERT NEW PROVIDER FROM Q1Q5]
+
+
+[ROWS- RANDOMIZE]
+Sound quality
+Picture quality
+On-screen TV guide
+Your bill was easy to understand
+Your bill was what you expected
+Pricing
+Has channel package that meets your needs
+The PVR or cable box was works properly
+TV features (e.g. ability to pause, reset live TV)
+
+
+S3Q3TV1.	When you signed up for your cable or satellite TV with your new provider, did you receive a promotional price period which will apply to your bill for the first few months of your service?
+
+Yes	1
+No	2
+Don't know	3
+
+
+       
+       
+       
+
+S3Q3TV3.	[TEXT IF CODE 1 AT S3Q3TV1: Yes] After that promotional price period is over, what will be the new monthly total of your TV service?
+
+[TEXT IF CODE 2 AT S2Q3TV1:NO OR DON'T KNOW]: What is the monthly total of your TV service?
+
+INSERT ADDITIONAL QUESTION TEXT IF BELL BUNDLE: You indicated that your new internet service is part of a bundle with Bell. Please try and think of the cost of your TV service alone. If you are not sure of the exact price, please provide your best estimate.
+
+       			
+Open End Numeric$
+Don't know [EXCLUSIVE]
+Refused [EXCLUSIVE]
+       
+S2Q3TV4.	
+And what was the total monthly bill you were paying for your TV service with Rogers?  
+ 
+	$_____________
+	Refused			89
+	Don't know			99
+       
+       
+
+[ASK IF CODE 3 AT S1Q1: CANCELLED ROGERS CABLE TV AND YES AT S1Q3 CODE C: HAVE NEW TV PROVIDER]
+S3Q2a. Which statement best applies to you?
+
+
+Single Select
+[INSERT PROVIDER FROM S1Q5] first contacted me about TV service		1
+I first contacted [INSERT PROVIDER FROM S1Q5] about TV service		2
+
+[ASK IF CODE 2 AT S3Q2a]
+S3Q2b. Thinking back to that first time you contacted [INSERT PROVIDER FROM S1Q5] to discuss TV service, how did you do this? 
+
+Through Door to Door rep
+In lobby of my building
+Online/over the internet
+Over the Phone
+At a store or kiosk for [INSERT PROVIDER FROM S1Q5]
+At a Third Party retail store such Best Buy, Future Shop etc.
+Other (Please Specify)
+I don't know/Refused	
+
+
+[IF SELECTED BELL FIBE/ Bell Aliant FibreOP TV AT S1Q5, ASK S3Q2c OTHERWISE SKIP]
+
+
+
+S3Q2c.  Where did you activate your Bell Fibe/Fibre Op TV service?
+
+
+       [CHOOSE ONE. DO NOT READ.]
+
+Through Door to Door rep
+In lobby of my building
+Online/over the internet
+Over the Phone
+Bell Store or Bell Kiosk
+At a third party retail store such as Best Buy, Future Shop etc.
+Other (Please Specify)
+I don't know/Refused	
+
+
+
+[ASK IF CODE 3 AT S1Q1: CANCELLED ROGERS CABLE TV AND YES AT S1Q3 CODE C: HAVE NEW TV PROVIDER]
+S3Q4a. Please tell us which of the following, if any, you either use or subscribe to as part of your monthly television service. [READ LIST. SELECT ALL THAT APPLY] 
+
+	A PVR/DVR that allows you to record live shows and save them		1
+A whole-home PVR/DVR that allows you to record shows and watch them on other TVs in your home	2
+	HD Service (high definition) channels or package				3
+	Specialty channels such as HBO, TMN or Movie Central			4
+	Extended Sports Packages such as NHL Centre ICE or MLB Extra Innings	5
+	Multi-cultural channels or packages						6
+	CraveTV									7
+	None of the above [EXCLUSIVE]						97
+
+
+
+
+
+
+
+
+Section 4:  Customer Service
+
+
+
+
+
+S4Q3.	Before you decided to cancel/downgrade your service, did you call Rogers customer service to try to resolve any issues you had? [DO NOT READ. CHOOSE ONE]
+	
+       Yes, called customer service			1
+	No, did not call to try to resolve issues		2
+	No did not call -did not have any issues	3
+
+
+[ASK IF S4Q3 = 1]
+Q_CUSTSERVICE_CONTACT1. How many times did you call Rogers customer service before you decided to cancel?
+[NUMERIC OPEN-END]
+999. Don't know / Refuse [DO NOT READ]
+
+[ASK IF S4Q3 = 1, AND Q_CUSTSERVICE>0]
+Q_CUSTSERVICE_CONTACT2. [IF Q_CUSTSERVICE_CONTACT1>1, THEN "Thinking back to the first of these times that",  ELSE IF Q_CUSTSERVICE_CONTACT=1, THEN "When"] you contacted Rogers, was your intention to cancel your service or resolve an issue with your service?
+	[DO NOT READ LIST]
+1. Cancel service
+2. Resolve issue
+99. Don't know / Refuse
+
+
+[ASK ALL]
+Q_CUSTSERVICE_CONTACT3. How long ago did you first think about cancelling your Rogers [TV/Internet/TV & Internet] service?
+ [DROP-DOWN MENU FOR MONTH / YEAR] 
+***(Interviewer note: please select the most fitting date based on their answer (e.g., if they say "2 months ago" you would select "December 2016" given if the interview is occurring in February).
+99. Don't know / Refuse	
+
+
+[ASK ALL]
+Q_PROMOTION1. When you contacted Rogers to cancel your [TV/Internet/TV & Internet] service, did the representative offer you promotional pricing to stay with Rogers?
+
+1. Yes
+2. No
+99. Don't know / Refuse
+
+
+[ASK IF Q_PROMOTION1=1]
+Q_PROMOTION2. Did the represantive explain the promotion in a way you could clearly understand?
+
+1. Yes
+2. No
+99. Don't know / Refuse
+
+
+[ASK IF Q_PROMOTION1=1 AND Q_PROMOTION2=1]
+Q_PROMOTION3. If the representative had offered you a promotion that would further reduce your bill by $10 on top of what was originally offered to you, would it have affected your decision to leave Rogers? Would you say that you...
+
+	[READ LIST]
+1. Definitely would have stayed with Rogers
+2. Maybe would have stayed with Rogers
+3. Probably still would have cancelled service
+4. Definitely still would have cancelled service 
+99. Don't know / Refuse [DO NOT READ]
+
+
+
+
+[SINGLE CHOICE FLAT]
+[ASK ALL]
+Q_NPS_ROGERS. How likely are you to recommend Rogers as a [TV/Internet/TV & Internet] provider to your friends and family? Please use a scale of 1 to 10, where 1 is not at all likely to recommend, and 10 is extremely likely to recommend. 
+
+[COLUMNS]
+Not at all likely										Extremely likely
+12345678910o o o o o o o o o o 
+
+[SINGLE CHOICE FLAT]
+[ASK ONLY THOSE WHO HAVE A NEW TV OR INT PROVIDER]
+Q_NPS_NEWPROVIDER1. How likely are you to recommend <INSERT NEW PROVIDER FROM S1Q4/S1Q5> as a [TV/Internet/TV & Internet] provider to your friends and family? Please use a scale of 1 to 10, where 1 is not at all likely to recommend, and 10 is extremely likely to recommend. 
+
+ [COLUMNS]
+Not at all likely										Extremely likely
+12345678910o o o o o o o o o o 
+
+
+[SINGLE CHOICE FLAT]
+[ASK ONLY IF RESPONDENT HAS DIFFERENT NEW PROVIDERS FOR TV & INTERNET]
+Q_NPS_NEWPROVIDER2. How likely are you to recommend <INSERT NEW PROVIDER FROM S1Q4/S1Q5> as a [TV/Internet] provider to your friends and family? Please use a scale of 1 to 10, where 1 is not at all likely to recommend, and 10 is extremely likely to recommend. 
+
+[COLUMNS]
+Not at all likely										Extremely likely
+12345678910o o o o o o o o o o 
+
+
+
+
+
+
+Section 5: Demographics
+
+D1.	How old are you?
+INTERVIEWER TO SELECT CORRECT BOX 
+
+	18 to 24 years old		1
+	25 to 39 years old		2
+	40 to 54 years old		3
+	55 years or older		4
+	Prefer not to say
+
+D2.	Are there any children living in your household ? 
+
+	Yes	1 [ASK NEXT QUESTION]
+	No	2 [SKIP TO D3]
+	Prefer not to say
+
+D2a.	How old is the oldest of your children living at home? [DO NOT READ, CHOOSE ONE ONLY]
+
+	9 or under			1
+	10 to 14 years old		2
+	15 to 17 years old		3
+	18 of age or older		4
+Prefer not to answer		998
+
+D3.  What type of dwelling do you reside in...[READ, CHOOSE ONE ONLY]
+A single family house 						1
+An apartment or condominium or a multi-dwelling building	2
+Prefer not to say
+
+
+D4.	Record Gender: [DO NOT ASK]
+
+	Male		1
+	Female	2
+Don't know		3
+	
+
+AUTHORIZATION QUESTION
+
+Z1. 	Your responses will be combined with those of other customers. May we also have your permission to provide Rogers with your individual survey answers for analysis purposes? [IF RESPONDENT DOES NOT UNDERSTAND THE QUESTION, CLARIFY: Would you allow us to give your answers to this survey to Rogers to help them better understand your concerns?]
+
+	Yes 			1
+	No			2
+
+
+
+
+Thank you very much for sharing your opinions with me today. Have a good day/evening.
+
+
+
+
+Data to Append from Rogers Database: 
+
+Province: Column U
+
+
+
+Hidden Variable: Auto Calculations
+
+HBundle_Delta: ARPU - (minus) TOTAL_BELLBUNDLE_BILL
+HTV_Delta: ARPU - (minus) TOTAL_TV_BILL
+HInternet_Delta: ARPU - (minus) TOTAL_WIRELESS_BILL 
+
+
+
