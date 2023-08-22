@@ -1,0 +1,423 @@
+﻿5
+Nova Scotia Power Inc. – Business Customer Tracking Study Q1 2021
+General Instructions:
+
+ o Interviewer must read each set of instructions for each part of this questionnaire.
+ o Interviewer must record all responses clearly and verbatim where required.
+ o Interviewer must avoid paraphrasing or rewording responses.
+ o Record the following information:	
+
+Company/Organization        	______________________
+Telephone #			______________________
+Community			______________________
+Postal Code (Bus. Location)	______________________
+Business Type			______________________
+Billing Amount ($)		______________________
+SAMPLE ID			______________________
+Interview Date			______________________
+
+Hello, my name is 			 , and I am with Narrative Research, a public opinion and market research company.  I am calling on behalf of Nova Scotia Power and would like to speak with the person who either owns the business or is responsible for the overall energy costs for the business.  
+
+IF NOT AVAILABLE AT THIS TIME, RESCHEDULE INTERVIEW
+
+IF REFERRED TO SOMEONE ELSE, RECORD NEW INFORMATION AND MAKE CONTACT
+
+Your participation is very important and the survey will take approximately 15 minutes to complete.
+
+CSAT Questions
+
+QA.	Which of the following best describes your responsibilities with in the company? Are you responsible for:
+	
+1.	Dealing regularly with service issues related to your energy provider(s) 
+2.	Deciding which energy sources will be used within or at your business or organization’s location 
+3.	Both 
+	(Ask to talk to day-to-day operations individual if they answer 02 only)
+
+QB.	Does your business or organization pay for its own electricity, or does someone else, such as a landlord pay for it?
+
+1.	Yes, pay for own
+2.	No, someone else pays	(thank and terminate)
+3.	Varies	(clarify, continue only if pay for most of its electricity use)
+	VOLUNTEERED
+99	Don’t know	(thank and terminate)
+
+
+To begin…
+
+37. Added May 2017. Do you… [READ & ROTATE]? CODE ALL THAT APPLY. 
+
+1 Receive a paper bill in the mail, OR
+2 Receive an electronic bill
+VOLUNTEERED
+98 	Don’t know
+
+1.	Can you tell me what type of business or industry your company is currently engaged in?
+	DO NOT READ - CODE PRIMARY AND OTHER IF NECESSARY
+
+1.	Accommodations (hotels, motels)
+2.	Restaurants
+3.	Grocers/Convenience Stores
+4.	Multi-residential buildings 
+5.	Retail Stores
+6.	Public/Government organization			
+7.	Financial Services (Banks, Insurance)
+8.	Agriculture
+9.	Fisheries
+10.	Manufacturing
+11.	Wholesale
+12.	Property Management
+13.	Automotive services
+14.	Business services (Specify_____________________)
+99	Other (SPECIFY _________________________)
+98	No answer/Refused
+
+
+Next I am going to ask you about what heat sources and heat systems you have for your business. A source would be something like oil, electricity, or wood, while a heat system would be something like electric baseboards, oil hot water baseboards, or a heat pump…
+
+
+4.	Revised Q1 2021. What are the sources of heat for your business? Please tell me the primary source first [INTERVIEWER NOTE] Please note, heat pumps are powered by electricity.  
+And what type of heating system do you have [INTERVIEWER NOTE – read system type examples only if necessary]
+And do you have any other heating sources? (if so specify source and system)
+
+Primary Heating Energy Source
+Primary Type of Heating System
+Secondary / Supplemental Heating Energy Source(s) [Third]: – if you have any, leave blank if not applicable
+Secondary / Supplemental Type(s) of Heating System(s)
+a. Electricity
+
+Electric baseboard
+
+a. Electricity
+Electric baseboard
+
+Plug in electric heaters
+
+Plug in electric heaters
+
+Electric fireplaces
+
+Electric fireplaces
+
+Electric thermal storage room unit (ETS)
+
+Electric thermal storage room unit (ETS)
+
+Heat Pump (ducted/central system)
+Heat Pump (central system)
+Heat Pump (ductless/mini split)
+Heat Pump (ductless)
+
+Heat Pump (geothermal)
+
+Heat Pump (geothermal)
+
+Radiant infloor
+
+Radiant infloor
+
+Electric furnace
+
+Electric furnace
+
+Other (please specify:_______)Added other to each category
+
+
+Other (please specify:_______)
+b. Oil
+Oil furnace (forced air)
+b. Oil	
+Oil furnace (forced air)
+Oil hot water baseboard 
+
+Oil hot water baseboard 
+
+Oil stove
+Oil stove
+
+Other (please specify:_______)
+
+Other (please specify:_______)
+c. Wood
+Wood stove
+
+c. Wood
+
+Wood stove
+
+Wood fireplace
+
+Wood fireplace
+
+Wood pellet stove
+
+Wood pellet stove
+
+
+Other (please specify:_______)
+
+Other (please specify:_______)
+d. Propane
+Propane gas forced air
+
+d. Propane
+
+Propane gas forced air
+
+Propane gas hot water baseboard
+
+Propane gas hot water baseboard
+
+Propane gas (gas, propane heaters, fireplaces)
+
+Propane gas (gas, propane heaters, fireplaces)
+
+
+Other (please specify:_______)
+
+Other (please specify:_______)
+e. Natural Gas
+
+Natural gas furnace
+
+e. Natural Gas
+
+Natural gas furnace
+
+Natural gas hot water baseboard
+
+Natural gas hot water baseboard
+
+
+Other (please specify:_______)
+
+Other (please specify:_______)
+f. Solar PanelsMade this its own system type. Used to be under ‘other’
+
+Other (please specify:_______)
+f. Solar Panels
+Other (please specify:_______)
+g. Other
+Other__________
+g. Other
+Other_________
+
+
+
+
+
+
+h. Don’t have secondary/Supplemental heating
+
+98   Don’t Know/No answerAdded don’t know to the business one since we suspect some will not be aware
+
+	
+
+12.	Thinking about the service of supplying electricity in general, how important are each of the following factors in the delivery of electrical power?  On a scale from 1 to 10, with 1 is not at all important and 10 is critically important, how important is/are:
+
+a.	The price of electricity
+b.	The ability to provide reliable power, without frequent interruptions			
+d.	Restoring power as quickly as possible after outages					
+f.	Providing timely and accurate information when there is a power interruption
+g.	Accuracy of its billing 
+j.	Courteousness of its employees								
+k.	Developing innovative solutions					
+					
+o. Efforts made to use renewable energy sources 
+
+Not at all 								Critically
+Important                                                                                       		Important          DK/NA
+          		  1	2	3	4	5	6	7	8	9	10	98
+
+
+12i. 	And using the same scale of importance, how important is it that… READ AND ROTATE
+p. Nova Scotia Power is knowledgeable and helpful when you need assistance
+q. Nova Scotia Power is easy to do business with
+r. Nova Scotia Power delivers on your expectations
+s. KEEP LAST: Cares about you as a customer
+
+Not at all 								Critically 	[VOL]
+Important                                                                                       		Important          DK/NA
+          		  1	2	3	4	5	6	7	8	9 	10	98
+
+13.	Now I will read you the same list of items again, and this time I would like to know how satisfied you are with Nova Scotia Power in relation to each item. On a scale from 1 to 10, with 1 being completely dissatisfied and 10 being completely satisfied, how satisfied are you with Nova Scotia Power on:
+
+a.	The price of electricity
+b	Its ability to provide reliable power, without frequent interruptions				
+d.	Its ability to restore power as quickly as possible after outages				
+f	Its ability to provide timely and accurate information when there is a power interruption
+g.	Accuracy of its billing 
+j.	The courteousness of its employees							
+k.	Developing innovative solutions					
+l.							
+o. Efforts made to use renewable energy sources
+Completely 								Completely
+Dissatisfied                                                                                       		Satisfied        DK/NA
+          		  1	2	3	4	5	6	7	8	9	10	98
+
+
+CX Guiding Principles
+
+42.	Added February 2019. Thinking about Nova Scotia Power as a service provider, please indicate the extent to which you either agree or disagree with each of the following statements about Nova Scotia Power.  Using a scale from 1 to 10 where 1 is completely disagree, and 10 is completely agree, how much do you agree that Nova Scotia Power:  [READ AND ROTATE, KEEPING D LAST]
+
+a.	Is knowledgeable and helpful when I need assistance
+b.	Is easy to do business with
+c. 	Delivers on my expectations
+d.	KEEP LAST: Cares about me as a customer
+
+Completely  								Completely
+Disagree                                                                                       		Agree	       DK/NA
+          	  1	2	3	4	5	6	7	8	9	10	98
+
+46. 	Added July 2019. ASK ONLY IF Q42D = 1-10. Why do you say that? CAPTURE VERBATIM.
+
+	Capture verbatim: ____________________________
+VOLUNTEERED [ADDED FEB 20 2020]
+8	Don’t know/No answer
+
+
+14. 	And how satisfied are you overall with Nova Scotia Power as your supplier of electricity?
+
+Completely							Completely
+Dissatisfied                                                                        		Satisfied	DK.NA    
+        		   1	2	3	4	5	6	7	8	9	10	98	
+
+14a.	Added October 9 2008. Why did you give them that score? 
+[IF 98 IN Q14] And why are you unable to give NSP a score? 
+
+Specify: ____________________________
+VOLUNTEERED
+8	Don’t know/No answer
+
+
+
+15.	Now thinking about Nova Scotia Power as a member of the business community, please indicate the extent to which you either agree or disagree with each of the following statements about Nova Scotia Power.  Using a scale from 1 to 10 where 1 is completely disagree, and 10 is completely agree, how much do you agree that Nova Scotia Power:  [READ AND ROTATE]
+
+d.	Conducts business in an ethical manner
+i.	Is a company you can trust
+j.	Provides you with good value for the money spent
+k.	Provides a high standard of customer service
+u. 	Added February 2019. Contributes to charities and community groups in meaningful ways
+
+Completely  								Completely
+Disagree                                                                                       		Agree	       DK/NA
+          		  1	2	3	4	5	6	7	8	9	10	98
+
+15aa. 	Added March 2013. Other than changing the cost of electricity, what types of things does Nova Scotia Power do to demonstrate value for money spent to you? 
+
+	Capture verbatim: ____________________________
+VOLUNTEERED
+8	Don’t know/No answer
+
+
+27.  Revised Q1 2016 – CODING CHANGES IN JAN 2020. When was the last time you contacted Nova Scotia Power directly? Was it [READ]
+ 
+01   Within the last week
+            	02   Within the last month
+03   Within the last six months
+            	04   More than six months ago
+	06   Never
+            VOLUNTEERED
+           	 08  Don’t know / can’t recall
+ 
+28. Revised Q1 2016. ASK IF CODES 1-4 IN Q27. Why did you contact Nova Scotia Power? [DO NOT READ. CODE ALL THAT APPLY]
+ 
+01 Billing
+02 Connection / disconnection
+	03   Power outage
+	04   New services due to building or renovating
+05   Meter reading
+06   Wiring inspection 
+           	07   A Street light repair
+09   Other (Specify:__________________)
+               98     Don’t know 
+
+
+COVID-19 Questions
+
+56. 	Added June 2020. As a result of COVID-19, is your business’ current level of production or hours of operation…? [READ & ROTATE. CODE ONE ONLY]  
+1 Higher
+2 The same
+3 Lower
+
+57. 	Added June 2020. And over the next six months, do you expect your business’ level of production or hours of operation to…? [READ & ROTATE. CODE ONE ONLY]  
+1 Increase compared to now
+2 Decrease compared to now 
+3 Remain the same as now
+4 [DO NOT ASK IF 56=2 (the same)] Return to the average norm from before COVID-19
+
+Awareness of NSP 
+Moving on…
+
+18.	Removed January 2011 – Revised January 2021 Where, if at all, do you recall seeing or hearing anything about Nova Scotia Power in the past 6 months? [DO NOT READ; CODE ALL MENTIONED]
+
+1 Newspaper
+2 Magazine
+3 Television
+4 Radio
+5 Friend/Family Member
+6 Internet (general)
+7 Social Media (e.g., Facebook, Instagram, Twitter, LinkedIn) (Please specify:________)
+9 Other (please specify:_________)
+8 Can’t recall/Don’t know
+	97    I don’t recall seeing or hearing anything about Nova Scotia PowerAdded
+
+
+19.	New Q1 2021 – Tracking from U&A Prior to today, were you aware that 30% of Nova Scotia Power’s energy is sourced from renewable energy, including wind, hydro, and natural gas? [CODE ONE ONLY; DO NOT READ]
+
+1 Yes
+2 No
+	8		Don’t know/No answer
+
+20. 	New Q1 2021 – Tracking from U&A What is your reaction to hearing that Nova Scotia Power uses 30% renewable energy?
+
+	RECORD VERBATIM
+	8	Don’t know/No answer
+
+Demographics		
+
+39.      Added February 2019– REVISED JAN 2020.   Which of the following best describes your gender? [READ IN SEQUENCE. CODE ONE ONLY].
+
+1 Male
+2 Female			
+3 Other
+VOLUNTEERED
+97	Prefer not to say
+
+43. Added February 2019. Including yourself, how many employees does your business currently have? DO NOT READ.  
+
+Enter Number: _______________________________________
+6	Prefer not to answer
+7	Don’t know
+
+44. Added February 2019. Approximately how many square feet is your primary business location? DO NOT READ
+
+Enter Number: _______________________________________
+6	Prefer not to answer
+7	Don’t know
+
+55. Added Jan 2020. How many separate business locations does your organization have in Nova Scotia? 
+
+Enter # of locations: ________________
+98	Don’t know/No answer
+
+
+45. 	Added February 2019. To assist Nova Scotia Power in understanding what’s important to its customers, do you give permission for CRA to share your survey responses directly with Nova Scotia Power? This will be used for the purpose of internal analysis only. Your responses will be kept confidential. Please note that you will not be contacted by anyone from Nova Scotia Power regarding your responses to this survey, unless you specifically gave permission to do so. 
+
+1 Yes
+2 No
+
+
+Closing		
+
+This completes the survey.  Thank you for your participation.
+Interviewer			
+
+
+Interviewer Certification:  I hereby certify that this survey was conducted in the manner in which it was intended and understand that a portion of completed interviews will be verified by a field supervisor.
+	
+Interviewer's Signature:                                              Date:  ______________________________                                
+
+THANK YOU FOR YOUR ASSISTANCE AND COOPERATION.
+
+Narrative Research, 2020
+

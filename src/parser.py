@@ -1,37 +1,44 @@
-import os
-import docx
-import doc2txt
+'''
+# docx_extractor = DocxTextExtractor(folder_path)
+# import docx
+# docx_text = docx_extractor.extract_all_text()
 
-class Doc2TxtTextExtractor:
+# print("Text extracted using DocxTextExtractor:")
+# for item in docx_text:
+#     print(item)
+
+
+'''
+import os
+import doc2text
+from docx import Document
+
+class DocxTextExtractor:
     def __init__(self, folder_path):
         self.folder_path = folder_path
 
-    def extract_text(self, file_path):
-        full_path = os.path.join(self.folder_path, file_path)
-        if file_path.endswith(".docx"):
-            text = doc2txt.process(full_path)
-            return text.split("\n")
-        return []
-
-    def extract_all_text(self):
-        all_text = []
+    def extract_text(self):
+        text_data = []
         for filename in os.listdir(self.folder_path):
             if filename.endswith(".docx"):
-                text = self.extract_text(filename)
-                all_text.extend(text)
-        return all_text
-    
-folder_path = "path/to/your/folder"
-docx_extractor = DocxTextExtractor(folder_path)
-doc2txt_extractor = Doc2TxtTextExtractor(folder_path)
+                file_path = os.path.join(self.folder_path, filename)
+                docx_text = self._extract_docx_text(file_path)
+                text_data.append(docx_text)
+        return text_data
 
-docx_text = docx_extractor.extract_all_text()
-doc2txt_text = doc2txt_extractor.extract_all_text()
+    def _extract_docx_text(self, file_path):
+        doc = Document(file_path)
+        doc_text = []
+        for element in doc.element.body:
+            if element.tag.endswith(("p", "tbl")):
+                element_text = doc2text.extract(file_path, page_numbers=[element.get_or_add_tc().get_or_add_tr()])
+                doc_text.append(element_text.strip())
+        return "\n".join(doc_text)
 
-print("Text extracted using DocxTextExtractor:")
-for item in docx_text:
-    print(item)
 
-print("\nText extracted using Doc2TxtTextExtractor:")
-for item in doc2txt_text:
-    print(item)
+if __name__ == "__main__":
+    folder_path = "path/to/your/docx/files/folder"
+    text_extractor = DocxTextExtractor(folder_path)
+    extracted_text = text_extractor.extract_text()
+    for i, text in enumerate(extracted_text, start=1):
+        print(f"Document {i}:\n{text}\n{'='*40}\n")
