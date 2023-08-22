@@ -8,9 +8,10 @@ PARSER => MODEL(NER) => JSON(RAW) => MODEL(CLASSIFICATION) => JSON(FINAL)
 DIRECTORY STRUCTURE
 SLA
     |SRC
-        |MODELS.PY
-        |PARSER.PY
-        |ENGINE.PY
+        |models.py
+        |parser.py
+        |engine.py
+        |dataset_automation.py
     |DATA
         |DATSETS    
             |NER
