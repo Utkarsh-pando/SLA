@@ -9,6 +9,14 @@ class NERDataConverter:
         self.csv_output_path = csv_output_path
         self.ner_data_raw = ner_data_raw
 
+    def preprocess(self, data):
+        processed_data = {}
+        for key, value in data.items():
+            value = value.replace("\\t", " ").strip()
+            if value:
+                processed_data[key] = value
+        return processed_data
+
     def convert_to_json(self):
         txt_files = [file for file in os.listdir(self.folder_path) if file.endswith(".txt")]
 
@@ -35,7 +43,8 @@ class NERDataConverter:
             json_path = os.path.join(self.json_folder, json_file)
             with open(json_path, "r") as file:
                 json_data = json.load(file)
-                for key, value in json_data.items():
+                processed_data = self.preprocess(json_data)
+                for key, value in processed_data.items():
                     csv_data.append([key, value, json_file])
 
         with open(self.csv_output_path, "w", newline="") as csv_file:
@@ -43,7 +52,6 @@ class NERDataConverter:
             csv_writer.writerow(["Key", "Value", "Filename"])
             csv_writer.writerows(csv_data)
 
-'''
 if __name__ == "__main__":
     folder_path = "data/txt"
     json_folder = "data/json/raw/txttorawjson"
@@ -51,4 +59,6 @@ if __name__ == "__main__":
     converter = NERDataConverter(folder_path, json_folder, csv_output_path)
     converter.convert_to_json()
     converter.convert_to_csv()
-'''
+
+
+
