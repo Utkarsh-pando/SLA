@@ -23,6 +23,8 @@ SLA
         |TXT
         |JSON
             |RAW
+                |TXTTORAWJSON
+
             |FINAL
     |MAIN.PY
     |requirements.txt

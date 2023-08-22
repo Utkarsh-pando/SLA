@@ -43,7 +43,7 @@ class NERDataConverter:
             csv_writer.writerow(["Key", "Value", "Filename"])
             csv_writer.writerows(csv_data)
 
-# Example usage
+'''
 if __name__ == "__main__":
     folder_path = "data/txt"
     json_folder = "data/json/raw/txttorawjson"
@@ -51,3 +51,4 @@ if __name__ == "__main__":
     converter = NERDataConverter(folder_path, json_folder, csv_output_path)
     converter.convert_to_json()
     converter.convert_to_csv()
+'''
